@@ -1,27 +1,123 @@
-<script id="__NEXT_DATA__" type="application/json" crossorigin="anonymous">
+// Configuration de l'application
+const CONFIG = {
+  dataUrl: '/data/animes.json',
+  defaultImage: 'images/default-cover.webp'
+};
 
-{
-  "props": {
-    "pageProps": {
-      "data": [
-        {
-          "id": 25,
-          "name": "Assassination Classroom",
-          "description": "Henshū - L'histoire se déroule au lycée Kunugigaoka. Koro-sensei est un alien responsable de la destruction d'une partie de la Lune. Il annonce alors au gouvernement de la Terre qu'il désire être le professeur de la classe 3-E, et rajoute que si aucun de ses élèves n'a réussi à le tuer à la fin de l'année, il détruirait la Terre. Les élèves de cette classe auront donc pour objectif d'assassiner leur professeur afin de sauver la Terre et d’empocher une récompense de 10 milliards de yens.",
-          "kaieur": "Elfenomomo et Pourquoi ?",
-          "cover": "/images/Assassination Classroom/AC_Henshu_Affiche.webp",
-          "background": "/images/Assassination%20Classroom/AC_Background.webp",
-          "banner": null,
-          "created_at": "2021-04-20T19:22:48.000000Z",
-          "updated_at": "2024-08-11T16:26:38.000000Z",
-          "deleted_at": null,
-          "check": 0,
-          "torrents": "Film 1 - Koro-sensei@https://nyaa.si/view/1356827|Film 2 - Le voyage scolaire@https://nyaa.si/view/1356829|Film 3 - Les nouveaux élèves@https://nyaa.si/view/1254689",
-          "multi": 1,
-          "status": "En cours",
-          "link": "https://fan-kai.fandom.com/fr/wiki/Assassination_Classroom_Hensh%C5%AB",
-          "episodes_count": 9
-        },
+// Fonction pour charger les données depuis le fichier JSON
+async function loadAnimeData() {
+  try {
+    const response = await fetch(CONFIG.dataUrl);
+    if (!response.ok) {
+      throw new Error('Erreur lors du chargement des données');
+    }
+    const data = await response.json();
+    return data.animes || [];
+  } catch (error) {
+    console.error('Erreur:', error);
+    return [];
+  }
+}
+
+// Fonction pour créer une carte d'anime
+function createAnimeCard(anime) {
+  const safeName = escapeHtml(anime.name);
+  const safeKaieur = escapeHtml(anime.kaieur);
+  const safeDescription = escapeHtml(anime.description.substring(0, 150));
+  const coverImage = anime.cover || CONFIG.defaultImage;
+  
+  return `
+    <div class="anime-card" data-id="${anime.id}">
+      <a href="#" class="anime-link">
+        <div class="anime-image">
+          <img src="${coverImage}" alt="${safeName}" loading="lazy" onerror="this.src='${CONFIG.defaultImage}';">
+        </div>
+        <div class="anime-info">
+          <h3 class="anime-title">${safeName}</h3>
+          <p class="anime-status">${anime.status} • ${anime.episodes_count} épisodes</p>
+          <p class="anime-kaieur">Par ${safeKaieur}</p>
+          <p class="anime-description">${safeDescription}...</p>
+        </div>
+      </a>
+    </div>
+  `;
+}
+
+// Fonction pour échapper le HTML
+function escapeHtml(unsafe) {
+  if (!unsafe) return '';
+  return unsafe
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+// Fonction pour afficher les animes
+async function displayAnimes() {
+  const container = document.getElementById('anime-container');
+  if (!container) return;
+
+  // Afficher un indicateur de chargement
+  container.innerHTML = '<div class="loading">Chargement des animes...</div>';
+
+  try {
+    // Charger les données
+    const animes = await loadAnimeData();
+    
+    // Vider le conteneur
+    container.innerHTML = '';
+
+    // Afficher les animes ou un message si vide
+    if (animes.length === 0) {
+      container.innerHTML = '<div class="no-results">Aucun anime trouvé</div>';
+      return;
+    }
+
+    // Ajouter chaque anime au conteneur
+    animes.forEach(anime => {
+      container.insertAdjacentHTML('beforeend', createAnimeCard(anime));
+    });
+
+    // Ajouter les écouteurs d'événements
+    addCardEventListeners();
+  } catch (error) {
+    console.error('Erreur lors de l\'affichage des animes:', error);
+    container.innerHTML = `
+      <div class="error">
+        <p>Une erreur est survenue lors du chargement des animes.</p>
+        <button id="retry-button">Réessayer</button>
+      </div>
+    `;
+    
+    // Ajouter un écouteur d'événement pour le bouton de réessai
+    const retryButton = document.getElementById('retry-button');
+    if (retryButton) {
+      retryButton.addEventListener('click', displayAnimes);
+    }
+  }
+}
+
+// Fonction pour ajouter des écouteurs d'événements aux cartes
+function addCardEventListeners() {
+  document.querySelectorAll('.anime-card').forEach(card => {
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      const animeId = card.getAttribute('data-id');
+      // Valider l'ID avant la redirection
+      if (animeId && /^\d+$/.test(animeId)) {
+        window.location.href = `anime.html?id=${encodeURIComponent(animeId)}`;
+      }
+    });
+  });
+}
+
+// Initialisation de l'application
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('Application Fankai Prime initialisée');
+  displayAnimes();
+});
         {
           "id": 88,
           "name": "Bakuman",
@@ -1490,38 +1586,6 @@
           "banner": null,
           "created_at": "2023-05-07T09:58:35.000000Z",
           "updated_at": "2024-01-12T20:32:47.000000Z",
-          "deleted_at": null,
-          "check": 0,
-          "torrents": "Saison 1@https://nyaa.si/user/Fan-Kai?q=Tokyo+Revengers+&f=0&c=0_0",
-          "multi": 1,
-          "status": "En cours",
-          "link": "https://fan-kai.fandom.com/fr/wiki/Tokyo_Revengers_Hensh%C5%AB",
-          "episodes_count": 12
-        },
-        {
-          "id": 43,
-          "name": "Tower of God",
-          "description": "Henshū - Afin de retrouver Rachel, la seule personne chère à ses yeux, Bam décide de prendre tous les risques pour atteindre le sommet d’une mystérieuse tour. Pour passer chaque étage, il devra réussir un test complexe dans lequel il jouera à chaque fois sa vie. Bam en sortira t-il indemne ?",
-          "kaieur": "Roro",
-          "cover": "/images/Towerofgod/Tower-of-God_Henshu.webp",
-          "background": "/images/Towerofgod/background.webp",
-          "banner": null,
-          "created_at": "2021-08-03T13:53:43.000000Z",
-          "updated_at": "2024-07-25T20:10:39.000000Z",
-          "deleted_at": null,
-          "check": 0,
-          "torrents": "Film 1 - La tour@https://nyaa.si/view/1388489|Film 2 - Positionnement@https://nyaa.si/view/1392786|Film 3 - Le test de l'administrateur@https://nyaa.si/view/1392787",
-          "multi": 0,
-          "status": "En cours",
-          "link": "https://fan-kai.fandom.com/fr/wiki/Tower_of_God_Hensh%C5%AB",
-          "episodes_count": 3
-        },
-        {
-          "id": 60,
-          "name": "Vinland Saga",
-          "description": "Thorfinn est le fils de l'un des plus grands guerriers Vikings, mais quand son père est tué au combat par le chef mercenaire Askeladd, il jure de se venger. Thorfinn rejoint alors le groupe d'Askeladd pour le défier en duel. Cependant, il se retrouve pris au milieu d'une guerre pour la couronne d'Angleterre.",
-          "kaieur": "Goruden, Roro, Odji-san",
-          "cover": "/images/VinlandSaga/vinlandsagaAffiche.webp",
           "background": "/images/VinlandSaga/background1.webp",
           "banner": null,
           "created_at": "2023-01-29T12:36:02.000000Z",

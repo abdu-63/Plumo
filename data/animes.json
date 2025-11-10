@@ -1,0 +1,13 @@
+{
+  "animes": [
+    {
+      "id": 25,
+      "name": "Assassination Classroom",
+      "description": "Henshū - L'histoire se déroule au lycée Kunugigaoka. Koro-sensei est un alien responsable de la destruction d'une partie de la Lune. Il annonce alors au gouvernement de la Terre qu'il désire être le professeur de la classe 3-E, et rajoute que si aucun de ses élèves n'a réussi à le tuer à la fin de l'année, il détruirait la Terre. Les élèves de cette classe auront donc pour objectif d'assassiner leur professeur afin de sauver la Terre et d'empocher une récompense de 10 milliards de yens.",
+      "kaieur": "Elfenomomo et Pourquoi ?",
+      "cover": "/images/Assassination Classroom/AC_Henshu_Affiche.webp",
+      "status": "En cours",
+      "episodes_count": 9
+    }
+  ]
+}

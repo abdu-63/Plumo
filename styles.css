@@ -1,43 +1,86 @@
-    <div id="__next"><style data-emotion="css-global yjkcpu">html {
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        box-sizing: border-box;
-        -webkit-text-size-adjust: 100%;
-    }
+/* Reset et styles de base */
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
 
-    *,
-    *::before,
-    *::after {
-        box-sizing: inherit;
-    }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 
-    strong,
-    b {
-        font-weight: 700;
-    }
+/* Typographie */
+body {
+    margin: 0;
+    color: #FFFFFF;
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #1E1E1E;
+}
 
+strong,
+b {
+    font-weight: 700;
+}
+
+/* Styles pour l'impression */
+@media print {
     body {
-        margin: 0;
-        color: #FFFFFF;
-        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.5;
-        background-color: #1E1E1E;
+        background-color: #fff;
+        color: #000;
     }
+}
 
-    @media print {
-        body {
-            background-color: #fff;
-        }
-    }
+body::backdrop {
+    background-color: #1E1E1E;
+}
 
-    body::backdrop {
-        background-color: #1E1E1E;
-    }
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
-    </style><style data-emotion="css 1xp8ifv">.css-1xp8ifv {
-        display: -webkit-box;
+/* Styles pour les cartes d'anime */
+.anime-card {
+    background: #2a2a2a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.anime-card:hover {
+    transform: translateY(-5px);
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.anime-info {
+    padding: 15px;
+}
+
+.anime-title {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.anime-description {
+    font-size: 0.9rem;
+    color: #bbb;
+    margin-bottom: 10px;
+}
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
