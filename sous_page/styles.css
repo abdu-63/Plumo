@@ -1,0 +1,1687 @@
+    <div id="__next"><style data-emotion="css-global yjkcpu">html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        box-sizing: border-box;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+
+    strong,
+    b {
+        font-weight: 700;
+    }
+
+    body {
+        margin: 0;
+        color: #FFFFFF;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        background-color: #1E1E1E;
+    }
+
+    @media print {
+        body {
+            background-color: #fff;
+        }
+    }
+
+    body::backdrop {
+        background-color: #1E1E1E;
+    }
+
+    </style><style data-emotion="css 1xp8ifv">.css-1xp8ifv {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-image: none !important;
+        margin-left: -1rem;
+        margin-top: -1rem;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        background-color: transparent;
+    }
+
+    </style><style data-emotion="css 1c4ur9a">.css-1c4ur9a {
+        background-color: #121212;
+        color: #FFFFFF;
+        -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+        background-image: linear-gradient(rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09));
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        position: static;
+        box-shadow: none;
+        border-radius: 0;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        background-image: none !important;
+        margin-left: -1rem;
+        margin-top: -1rem;
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+        background-color: transparent;
+    }
+
+    </style><header class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic css-1c4ur9a"><style data-emotion="css 94asec">.css-94asec {
+        width: 100%;
+        margin-left: auto;
+        box-sizing: border-box;
+        margin-right: auto;
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        max-width: 100% !important;
+    }
+
+    @media (min-width:600px) {
+        .css-94asec {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+    }
+
+    @media (min-width:1200px) {
+        .css-94asec {
+            max-width: 1200px;
+        }
+    }
+
+    </style><div class="MuiContainer-root MuiContainer-maxWidthLg css-94asec"><style data-emotion="css 124tnwd">.css-124tnwd {
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        min-height: 56px;
+        min-height: 60px !important;
+        height: 60px;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    @media (min-width:0px) {
+        @media (orientation: landscape) {
+            .css-124tnwd {
+                min-height: 48px;
+            }
+        }
+    }
+
+    @media (min-width:600px) {
+        .css-124tnwd {
+            min-height: 64px;
+        }
+    }
+
+    .css-124tnwd>img {
+        cursor: pointer;
+    }
+
+    </style><div class="MuiToolbar-root MuiToolbar-regular css-124tnwd"><style data-emotion="css rq8500">@media(max-width: 470px) {
+        .css-rq8500 {
+            display: none;
+        }
+    }
+
+    </style><div class="MuiBox-root css-rq8500"><img alt="Logo Fankai" loading="lazy" width="150" height="25"
+    decoding="async" data-nimg="1" style="color:transparent"
+
+    src="/img/Logo_Fankai_Complet_1-ligne.svg" /></div><style data-emotion="css 1lvtzne">.css-1lvtzne {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+
+    @media (min-width:0px) {
+        .css-1lvtzne {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+
+    @media (min-width:900px) {
+        .css-1lvtzne {
+            display: none;
+        }
+    }
+
+    </style><div class="MuiBox-root css-1lvtzne"><style data-emotion="css 2n8tw9">.css-2n8tw9 {
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: inherit;
+        padding: 12px;
+        font-size: 1.75rem;
+    }
+
+    .css-2n8tw9:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-2n8tw9:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-2n8tw9.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css 1ps3nxk">.css-1ps3nxk {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: inherit;
+        padding: 12px;
+        font-size: 1.75rem;
+    }
+
+    .css-1ps3nxk::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-1ps3nxk.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-1ps3nxk {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-1ps3nxk:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-1ps3nxk:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-1ps3nxk.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-1ps3nxk"
+    tabindex="0" type="button" aria-label="Menu latéral" aria-controls="menu-appbar"
+
+    aria-haspopup="true"><style data-emotion="css vubbuv">.css-vubbuv {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 1.5rem;
+    }
+
+    </style><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false"
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></button><style data-emotion="css d47f85">@media (min-width:0px) {
+        .css-d47f85 {
+            display: block;
+        }
+    }
+
+    @media (min-width:900px) {
+        .css-d47f85 {
+            display: none;
+        }
+    }
+
+    </style><style data-emotion="css 1a5a47w">@media (min-width:0px) {
+        .css-1a5a47w {
+            display: block;
+        }
+    }
+
+    @media (min-width:900px) {
+        .css-1a5a47w {
+            display: none;
+        }
+    }
+
+    </style></div><style data-emotion="css 19pu4hj">.css-19pu4hj {
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    @media (min-width:0px) {
+        .css-19pu4hj {
+            display: none;
+        }
+    }
+
+    @media (min-width:900px) {
+        .css-19pu4hj {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+    }
+
+    </style><div class="MuiBox-root css-19pu4hj"><style data-emotion="css 13q68ik">.css-13q68ik {
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-weight: normal;
+        color: white;
+        margin-right: 1rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .css-13q68ik:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-13q68ik:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-13q68ik.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css 1hkdgkd">.css-1hkdgkd {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-weight: normal;
+        color: white;
+        margin-right: 1rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 8px;
+    }
+
+    .css-1hkdgkd::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-1hkdgkd.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-1hkdgkd {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-1hkdgkd:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-1hkdgkd:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-1hkdgkd.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1hkdgkd"
+    tabindex="0" type="button" aria-label="Nos productions"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false"
+
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="OndemandVideoIcon"><path d="M21 3H3c-1.11 0-2 .89-2 2v12c0 1.1.89 2 2 2h5v2h8v-2h5c1.1 0 1.99-.9 1.99-2L23 5c0-1.11-.9-2-2-2zm0 14H3V5h18v12zm-5-6-7 4V7z"></path></svg></button><style data-emotion="css 1e2dcm1">.css-1e2dcm1 {
+        z-index: 1500;
+        pointer-events: none;
+    }
+
+    </style><style data-emotion="css okvapm">.css-okvapm {
+        z-index: 1500;
+        pointer-events: none;
+    }
+
+    </style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1hkdgkd"
+    tabindex="0" type="button" aria-label="Guide des épisodes"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false"
+
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuBookIcon"><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1zm0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5v11.5z"></path><path d="M17.5 10.5c.88 0 1.73.09 2.5.26V9.24c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99zM13 12.49v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26V11.9c-.79-.15-1.64-.24-2.5-.24-1.7 0-3.24.3-4.5.83zm4.5 1.84c-1.7 0-3.24.29-4.5.83v1.66c1.13-.64 2.7-.99 4.5-.99.88 0 1.73.09 2.5.26v-1.52c-.79-.16-1.64-.24-2.5-.24z"></path></svg></button></div><style data-emotion="css h81u8y">.css-h81u8y {
+        -webkit-box-flex: 0;
+        -webkit-flex-grow: 0;
+        -ms-flex-positive: 0;
+        flex-grow: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    </style><div class="MuiBox-root css-h81u8y"><style data-emotion="css 12z0wuy">.css-12z0wuy {
+        margin-right: 8px;
+    }
+
+    </style><div class="MuiBox-root css-12z0wuy"><style data-emotion="css 2ymb5h">.css-2ymb5h {
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    .css-2ymb5h:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-2ymb5h:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-2ymb5h.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css 1egpgfe">.css-1egpgfe {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    .css-1egpgfe::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-1egpgfe.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-1egpgfe {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-1egpgfe:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-1egpgfe:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-1egpgfe.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1egpgfe"
+    tabindex="0" type="button" aria-label="Communauté"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false"
+
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="ShareIcon"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"></path></svg></button><style data-emotion="css dp5wd">.css-dp5wd {
+        margin-top: 45px;
+    }
+
+    </style><style data-emotion="css 325r7m">.css-325r7m {
+        margin-top: 45px;
+    }
+
+    </style></div><div class="MuiBox-root css-0"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1egpgfe"
+    tabindex="0" type="button" aria-label="Paramètres"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv" focusable="false"
+
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="SettingsIcon"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"></path></svg></button></div></div></div></div></header><style data-emotion="css cjp73m">.css-cjp73m {
+        padding-left: 32px;
+        padding-right: 16px;
+        margin-top: 50px;
+        height: calc(100% - 50px);
+    }
+
+    @media(max-width: 560px) {
+        .css-cjp73m {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+
+    </style><div class="MuiBox-root css-cjp73m"><style data-emotion="css uwwqev">.css-uwwqev {
+        width: 100%;
+        height: 100%;
+    }
+
+    </style><div class="MuiBox-root css-uwwqev"><style data-emotion="css erk03x">.css-erk03x {
+        background-image: linear-gradient(to bottom, transparent, #1E1E1E), url("https://api.fankai.fr/images/Bleach/background.webp");
+        position: absolute;
+        height: 100%;
+        top: 0px;
+        opacity: 0.3;
+        width: 100vw;
+        margin-left: -48px;
+        -webkit-background-size: cover;
+        background-size: cover;
+        -webkit-background-position: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: -1;
+        overflow-x: hidden;
+    }
+
+    @media(max-width:560px) {
+        .css-erk03x {
+            margin-left: -16px !important;
+        }
+    }
+
+    </style><div class="MuiBox-root css-erk03x"></div><style data-emotion="css 4n1opy">@media(min-width: 801px) {
+        .css-4n1opy {
+            display: none;
+        }
+    }
+
+    </style><div class="MuiBox-root css-4n1opy"><div class="MuiBox-root css-0"><style data-emotion="css j69dwi">.css-j69dwi {
+        overflow: hidden;
+        background-color: #20222580;
+        background-image: none;
+        border-radius: 8px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    </style><style data-emotion="css 1b1xxz2">.css-1b1xxz2 {
+        background-color: #121212;
+        color: #FFFFFF;
+        -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-radius: 4px;
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+        overflow: hidden;
+        background-color: #20222580;
+        background-image: none;
+        border-radius: 8px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    </style><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1b1xxz2"><style data-emotion="css faujvq">.css-faujvq {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 16px;
+    }
+
+    </style><div class="MuiCardHeader-root css-faujvq"><style data-emotion="css 11qjisw">.css-11qjisw {
+        -webkit-flex: 1 1 auto;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+
+    </style><div class="MuiCardHeader-content css-11qjisw"><style data-emotion="css n1rtwb">.css-n1rtwb {
+        margin: 0;
+        font-size: 0.8rem;
+        color: #FFFFFF;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        line-height: 1.334;
+        display: block;
+    }
+
+    </style><span class="MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-n1rtwb"><strong></strong></span><style data-emotion="css xh3ohp">.css-xh3ohp {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.7);
+        display: block;
+    }
+
+    </style><span class="MuiTypography-root MuiTypography-body1 MuiCardHeader-subheader css-xh3ohp">Par Mixouille - Johker</span></div><style data-emotion="css 1bh09gn">.css-1bh09gn {
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        -webkit-align-self: flex-start;
+        -ms-flex-item-align: flex-start;
+        align-self: flex-start;
+        margin-top: -4px;
+        margin-right: -8px;
+        margin-bottom: -4px;
+    }
+
+    </style><div class="MuiCardHeader-action css-1bh09gn"><style data-emotion="css 2ymb5h">.css-2ymb5h {
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    .css-2ymb5h:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-2ymb5h:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-2ymb5h.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css 1egpgfe">.css-1egpgfe {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        font-size: 1.5rem;
+        padding: 8px;
+        border-radius: 50%;
+        overflow: visible;
+        color: #fff;
+        -webkit-transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    }
+
+    .css-1egpgfe::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-1egpgfe.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-1egpgfe {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-1egpgfe:hover {
+        background-color: rgba(255, 255, 255, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-1egpgfe:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-1egpgfe.Mui-disabled {
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1egpgfe"
+
+    tabindex="0" type="button" aria-label="description"><style data-emotion="css vubbuv">.css-vubbuv {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: 1.5rem;
+    }
+
+    </style><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+    focusable="false" aria-hidden="true" viewBox="0 0 24 24"
+
+    data-testid="ExpandMoreIcon"><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></button></div></div></div></div><style data-emotion="css 9j015k">.css-9j015k {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    </style><div class="MuiBox-root css-9j015k"><style data-emotion="css fj8fx1">.css-fj8fx1 {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 28px;
+    }
+
+    @media(max-width: 380px) {
+        .css-fj8fx1 {
+            gap: 12px;
+        }
+    }
+
+    </style><div class="MuiBox-root css-fj8fx1"><style data-emotion="css 1k371a6">@media print {
+        .css-1k371a6 {
+            position: absolute !important;
+        }
+    }
+
+    </style></div><style data-emotion="css 120nera">.css-120nera {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 12px;
+    }
+
+    </style><div class="MuiBox-root css-120nera"></div></div><style data-emotion="css fed3zf">.css-fed3zf {
+        margin-bottom: 12px;
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    </style><div class="MuiBox-root css-fed3zf"><style data-emotion="css bkgg9c">.css-bkgg9c {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-weight: 500;
+        gap: 24px;
+        margin-bottom: 12px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-bkgg9c"><style data-emotion="css 1rzcaw5">.css-1rzcaw5 {
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 214, 2, 0.4);
+    }
+
+    .css-1rzcaw5:hover {
+        text-decoration-color: inherit;
+    }
+
+    </style><style data-emotion="css w6gjtd">.css-w6gjtd {
+        margin: 0;
+        color: #FFD602;
+        -webkit-text-decoration: underline;
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 214, 2, 0.4);
+    }
+
+    .css-w6gjtd:hover {
+        text-decoration-color: inherit;
+    }
+
+    </style><a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-w6gjtd"
+    target="_blank" rel="noreferrer"
+
+    href="https://fan-kai.fandom.com/fr/wiki/Bleach_Yabai_(Johker)">Guide des épisodes de la série</a></p></div></div><style data-emotion="css 10gvu77">.css-10gvu77 {
+        margin-bottom: 8px;
+        margin-top: 200px !important;
+        border-radius: 0px !important;
+        background-color: transparent !important;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: stretch;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        max-width: 75rem;
+        margin: 0 auto;
+        gap: 28px;
+    }
+
+    @media(max-width: 801px) {
+        .css-10gvu77 {
+            display: none;
+        }
+    }
+
+    </style><div class="MuiBox-root css-10gvu77"><div class="MuiBox-root css-0"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1egpgfe"
+    tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-vubbuv"
+
+    focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowBackIcon"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg></button></div><style data-emotion="css 1krmk1t">.css-1krmk1t {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: stretch;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        gap: 28px;
+    }
+
+    </style><div class="MuiBox-root css-1krmk1t"><style data-emotion="css j142pp">.css-j142pp>img {
+        border-radius: 8px;
+        object-fit: initial;
+        width: 250px;
+    }
+
+    </style><div class="MuiBox-root css-j142pp"><img alt="Bleach" loading="lazy" width="300" height="400"
+    decoding="async" data-nimg="1"
+    style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 300 400&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;20&#x27;/%3E%3CfeColorMatrix values=&#x27;1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1&#x27; result=&#x27;s&#x27;/%3E%3CfeFlood x=&#x27;0&#x27; y=&#x27;0&#x27; width=&#x27;100%25&#x27; height=&#x27;100%25&#x27;/%3E%3CfeComposite operator=&#x27;out&#x27; in=&#x27;s&#x27;/%3E%3CfeComposite in2=&#x27;SourceGraphic&#x27;/%3E%3CfeGaussianBlur stdDeviation=&#x27;20&#x27;/%3E%3C/filter%3E%3Cimage width=&#x27;100%25&#x27; height=&#x27;100%25&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; preserveAspectRatio=&#x27;none&#x27; style=&#x27;filter: url(%23b);&#x27; href=&#x27;/img/bg-blurred.jpeg&#x27;/%3E%3C/svg%3E&quot;)"
+    srcSet="/_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2Fbleach_yabai_affiche.webp&amp;w=384&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2Fbleach_yabai_affiche.webp&amp;w=640&amp;q=100 2x"
+
+    src="/_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2Fbleach_yabai_affiche.webp&amp;w=640&amp;q=100" /></div><style data-emotion="css 1ofqig9">.css-1ofqig9 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    </style><div class="MuiBox-root css-1ofqig9"><style data-emotion="css e0c6dk">.css-e0c6dk {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    </style><div class="MuiBox-root css-e0c6dk"><style data-emotion="css lahzp8">.css-lahzp8 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 28px;
+    }
+
+    </style><div class="MuiBox-root css-lahzp8"></div><div class="MuiBox-root css-120nera"></div></div><div class="MuiBox-root css-1ofqig9"><style data-emotion="css 1mvcd3i">.css-1mvcd3i {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-1mvcd3i">Bleach</p><style data-emotion="css 1wei88x">.css-1wei88x {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #A7A7A7;
+        font-weight: 500;
+        padding-top: 4px;
+        margin-bottom: 25px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-1wei88x">VOSTFR | VF</p><style data-emotion="css jugfk2">.css-jugfk2 {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-jugfk2">Kaï / Yabaï - Kurosaki Ichigo,
+    un étudiant de quinze ans aux cheveux orange qui aime la bagarre (comme son père) a la particularité de voir les fantômes ainsi que de pouvoir les toucher. Cela l&#x27;
+    amène à rencontrer Kuchiki Rukia,
+    un Shinigami (dieu de la mort) qui combat un Hollow. Le déroulement du combat amène Kuchiki à donner ses pouvoirs à Ichigo qui deviens alors lui même un Shinigami. C&#x27;
+    est maintenant à son tour de protéger la ville des Hollows.</p><p class="MuiTypography-root MuiTypography-body1 css-bkgg9c">Kaieur(s) <strong>Mixouille - Johker</strong></p><p class="MuiTypography-root MuiTypography-body1 css-bkgg9c"><a class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-w6gjtd"
+    target="_blank" rel="noreferrer"
+
+    href="https://fan-kai.fandom.com/fr/wiki/Bleach_Yabai_(Johker)">Guide des épisodes de la série</a></p></div></div></div></div><br /><br /><style data-emotion="css 184ae5">.css-184ae5 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.43;
+        background-color: rgb(25, 18, 7);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 6px 16px;
+        color: rgb(255, 226, 183);
+    }
+
+    .css-184ae5 .MuiAlert-icon {
+        color: #ffa726;
+    }
+
+    </style><style data-emotion="css 1400pwu">.css-1400pwu {
+        background-color: #121212;
+        color: #FFFFFF;
+        -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        border-radius: 4px;
+        box-shadow: none;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.43;
+        background-color: rgb(25, 18, 7);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 6px 16px;
+        color: rgb(255, 226, 183);
+    }
+
+    .css-1400pwu .MuiAlert-icon {
+        color: #ffa726;
+    }
+
+    </style><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardWarning MuiAlert-standard css-1400pwu"
+
+    role="alert"><style data-emotion="css 1l54tgj">.css-1l54tgj {
+        margin-right: 12px;
+        padding: 7px 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 22px;
+        opacity: 0.9;
+    }
+
+    </style><div class="MuiAlert-icon css-1l54tgj"><style data-emotion="css 1cw4hi4">.css-1cw4hi4 {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+        fill: currentColor;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        font-size: inherit;
+    }
+
+    </style><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1cw4hi4" focusable="false"
+
+    aria-hidden="true" viewBox="0 0 24 24" data-testid="ReportProblemOutlinedIcon"><path d="M12 5.99L19.53 19H4.47L12 5.99M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"></path></svg></div><style data-emotion="css 1xsto0d">.css-1xsto0d {
+        padding: 8px 0;
+        min-width: 0;
+        overflow: auto;
+    }
+
+    </style><div class="MuiAlert-message css-1xsto0d">Le streaming n&#x27;
+    est plus disponible. Pour+d&#x27;
+
+    info,
+    veuillez lire <a href="https://discord.com/channels/414117314418704414/424233764034707487/1234831048832192634">ces explications</a>.</div></div><style data-emotion="css 19hypro">.css-19hypro {
+        max-width: 75rem;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    </style><div class="MuiBox-root css-19hypro"><style data-emotion="css f14tel">.css-f14tel {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 21px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-f14tel">Saison< !-- -->s</p><style data-emotion="css 1ofyzhl">.css-1ofyzhl {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 9px;
+        overflow: auto;
+        padding-bottom: 10px;
+    }
+
+    .css-1ofyzhl .MuiButtonBase-root {
+        min-width: -webkit-fit-content !important;
+        min-width: -moz-fit-content !important;
+        min-width: fit-content !important;
+    }
+
+    .css-1ofyzhl::-webkit-scrollbar {
+        display: none;
+    }
+
+    @media(min-width: 800px) {
+        .css-1ofyzhl {
+            -webkit-box-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+    }
+
+    </style><div class="MuiBox-root css-1ofyzhl"><style data-emotion="css 4mrgym">.css-4mrgym {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: #FFD602;
+        background-color: white !important;
+        color: #1F1F1F !important;
+        font-size: 12px important;
+        font-weight: 500 !important;
+        padding: 4px 10px !important;
+        border-radius: 5px !important;
+    }
+
+    .css-4mrgym:hover {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background-color: rgba(255, 214, 2, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-4mrgym:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-4mrgym.Mui-disabled {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css xzg6e9">.css-xzg6e9 {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: #FFD602;
+        background-color: white !important;
+        color: #1F1F1F !important;
+        font-size: 12px important;
+        font-weight: 500 !important;
+        padding: 4px 10px !important;
+        border-radius: 5px !important;
+    }
+
+    .css-xzg6e9::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-xzg6e9.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-xzg6e9 {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-xzg6e9:hover {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background-color: rgba(255, 214, 2, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-xzg6e9:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-xzg6e9.Mui-disabled {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-xzg6e9"
+
+    tabindex="0" type="button">Shinigami Remplaçant</button><style data-emotion="css pcry63">.css-pcry63 {
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: #FFD602;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+        color: white !important;
+        font-size: 12px important;
+        font-weight: 500 !important;
+        padding: 4px 10px !important;
+        border-radius: 5px !important;
+    }
+
+    .css-pcry63:hover {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background-color: rgba(255, 214, 2, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-pcry63:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-pcry63.Mui-disabled {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><style data-emotion="css t2tyrz">.css-t2tyrz {
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        position: relative;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        margin: 0;
+        border-radius: 0;
+        padding: 0;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        vertical-align: middle;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        color: inherit;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        text-transform: uppercase;
+        min-width: 64px;
+        padding: 6px 8px;
+        border-radius: 4px;
+        -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        color: #FFD602;
+        background-color: rgba(255, 255, 255, 0.25) !important;
+        color: white !important;
+        font-size: 12px important;
+        font-weight: 500 !important;
+        padding: 4px 10px !important;
+        border-radius: 5px !important;
+    }
+
+    .css-t2tyrz::-moz-focus-inner {
+        border-style: none;
+    }
+
+    .css-t2tyrz.Mui-disabled {
+        pointer-events: none;
+        cursor: default;
+    }
+
+    @media print {
+        .css-t2tyrz {
+            -webkit-print-color-adjust: exact;
+            color-adjust: exact;
+        }
+    }
+
+    .css-t2tyrz:hover {
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background-color: rgba(255, 214, 2, 0.08);
+    }
+
+    @media (hover: none) {
+        .css-t2tyrz:hover {
+            background-color: transparent;
+        }
+    }
+
+    .css-t2tyrz.Mui-disabled {
+        color: rgba(255, 255, 255, 0.3);
+    }
+
+    </style><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-t2tyrz"
+    tabindex="0" type="button">Soul Society</button><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-t2tyrz"
+    tabindex="0" type="button">Arrancars</button><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-t2tyrz"
+
+    tabindex="0" type="button">Fullbring</button></div><style data-emotion="css j7qwjs">.css-j7qwjs {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    </style><div class="MuiBox-root css-j7qwjs"><style data-emotion="css 4p42e5">.css-4p42e5 {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: 700;
+        font-size: 22px;
+        margin-top: 34px;
+        margin-bottom: 17px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-4p42e5">28< !-- -->Film< !-- -->s< !-- -->< !-- -->disponibles et 3 Films en check</p><style data-emotion="css j565mi">.css-j565mi {
+        gap: 17px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    @media(max-width: 560px) {
+        .css-j565mi {
+            gap: 40px !important;
+        }
+    }
+
+    </style><div class="MuiBox-root css-j565mi"><style data-emotion="css 1dr6krw">.css-1dr6krw {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-align-items: stretch;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 100%;
+        gap: 19px;
+        -webkit-box-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    </style><div class="MuiBox-root css-1dr6krw"><style data-emotion="css fyh5yf">.css-fyh5yf img {
+        border-radius: 8px;
+    }
+
+    @media(max-width: 560px) {
+        .css-fyh5yf {
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            background-color: #0000004a;
+            padding: 8px;
+            border-radius: 8px;
+        }
+    }
+
+    </style><div class="MuiBox-root css-fyh5yf"><img alt="Death and Strawberry" loading="lazy"
+    width="255" height="144" decoding="async" data-nimg="1"
+    style="color:transparent;background-size:cover;background-position:50% 50%;background-repeat:no-repeat;background-image:url(&quot;data:image/svg+xml;charset=utf-8,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 255 144&#x27;%3E%3Cfilter id=&#x27;b&#x27; color-interpolation-filters=&#x27;sRGB&#x27;%3E%3CfeGaussianBlur stdDeviation=&#x27;20&#x27;/%3E%3CfeColorMatrix values=&#x27;1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1&#x27; result=&#x27;s&#x27;/%3E%3CfeFlood x=&#x27;0&#x27; y=&#x27;0&#x27; width=&#x27;100%25&#x27; height=&#x27;100%25&#x27;/%3E%3CfeComposite operator=&#x27;out&#x27; in=&#x27;s&#x27;/%3E%3CfeComposite in2=&#x27;SourceGraphic&#x27;/%3E%3CfeGaussianBlur stdDeviation=&#x27;20&#x27;/%3E%3C/filter%3E%3Cimage width=&#x27;100%25&#x27; height=&#x27;100%25&#x27; x=&#x27;0&#x27; y=&#x27;0&#x27; preserveAspectRatio=&#x27;none&#x27; style=&#x27;filter: url(%23b);&#x27; href=&#x27;/img/bg-blurred.jpeg&#x27;/%3E%3C/svg%3E&quot;)"
+    srcSet="/_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2FBleach-Yabai_Film1.webp&amp;w=256&amp;q=100 1x, /_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2FBleach-Yabai_Film1.webp&amp;w=640&amp;q=100 2x"
+
+    src="/_next/image?url=https%3A%2F%2Fapi.fankai.fr%2Fimages%2FBleach%2FBleach-Yabai_Film1.webp&amp;w=640&amp;q=100" /></div><style data-emotion="css 1rxgtou">.css-1rxgtou {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    </style><div class="MuiBox-root css-1rxgtou"><style data-emotion="css 69i1ev">.css-69i1ev {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    </style><div class="MuiBox-root css-69i1ev"><div class="MuiBox-root css-120nera"><style data-emotion="css 167yfzz">.css-167yfzz {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-167yfzz">Film < !-- -->1< !-- -->- < !-- -->Death and Strawberry</p></div><p class="MuiTypography-root MuiTypography-body1 css-167yfzz">0:52:59</p></div><style data-emotion="css 8s549p">.css-8s549p {
+        margin-top: 4px;
+        color: white;
+    }
+
+    </style><div class="MuiBox-root css-8s549p"><strong>Episodes</strong>< !-- -->1 - 3</div><style data-emotion="css og44z6">.css-og44z6 {
+        margin-top: 8px;
+        color: #A7A7A7;
+        font-weight: 500;
+    }
+
+    </style><div class="MuiBox-root css-og44z6"><style data-emotion="css sd8pf2">.css-sd8pf2 {
+        margin: 0;
+        font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    </style><p class="MuiTypography-root MuiTypography-body1 css-sd8pf2">Ichigo Kurosaki est un adolescent capable de voir les fantômes. Il devient un Shinigami après avoir récupéré une partie des pouvoirs de sa nouvelle amie Rukia Kuchiki. </p></div>
