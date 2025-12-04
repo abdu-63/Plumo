@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    background: #000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.videoWrapper {
+    width: 100%;
+    /* Plyr handles aspect ratio, but we can ensure container behaves */
+}
+
+/* Custom Plyr Theme Overrides to match Fankai */
+:global(.plyr--video .plyr__control--overlaid) {
+    background: var(--accent);
+    color: #000;
+}
+
+:global(.plyr--full-ui input[type=range]) {
+    color: var(--accent);
+}
+
+:global(.plyr__control--overlaid:hover) {
+    background: #e6c200;
+}
+
+:global(.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before) {
+    background: var(--accent);
+}

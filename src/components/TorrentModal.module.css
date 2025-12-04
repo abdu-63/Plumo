@@ -1,0 +1,110 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+.modal {
+    background: #2a2a2a;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    padding: 2rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.infoBox {
+    background: #0f172a;
+    border: 1px solid #1e293b;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.infoIcon {
+    color: #38bdf8;
+    flex-shrink: 0;
+}
+
+.infoContent h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.infoContent p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #94a3b8;
+    line-height: 1.4;
+}
+
+.highlight {
+    color: #facc15;
+    font-weight: bold;
+}
+
+.torrentList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.torrentButton {
+    background: #333;
+    border: none;
+    padding: 1rem;
+    border-radius: 6px;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: background 0.2s;
+    text-decoration: none;
+}
+
+.torrentButton:hover {
+    background: #444;
+}
+
+.fileIcon {
+    color: #fff;
+}
+
+.closeButton {
+    background: #facc15;
+    color: black;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    transition: opacity 0.2s;
+}
+
+.closeButton:hover {
+    opacity: 0.9;
+}
