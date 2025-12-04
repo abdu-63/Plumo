@@ -9,8 +9,9 @@ import { useWatchHistory } from '@/hooks/useWatchHistory';
 const VideoPlayer = dynamic(() => import('./VideoPlayer'), { ssr: false });
 
 export default function EpisodeList({ episodes, series, seasons, initialEpisodeId, initialTimestamp, initialSeasonIndex }) {
+    const [selectedLanguage, setSelectedLanguage] = useState('VOSTFR');
     const [selectedEpisode, setSelectedEpisode] = useState(null);
-    const [activeSeasonIndex, setActiveSeasonIndex] = useState(0);
+    const [activeSeasonIndex, setActiveSeasonIndex] = useState(initialSeasonIndex || 0);
     const { addToHistory } = useWatchHistory();
 
     useEffect(() => {
@@ -73,13 +74,33 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
     useEffect(() => {
         if (selectedEpisode) {
             document.body.style.overflow = 'hidden';
+
+            // Auto-switch language if current selection is not available for this episode
+            const hasVF = !!selectedEpisode.videoUrlVF;
+            const hasVOSTFR = !!selectedEpisode.videoUrlVOSTFR;
+
+            if (selectedLanguage === 'VOSTFR' && !hasVOSTFR && hasVF) {
+                setSelectedLanguage('VF');
+            } else if (selectedLanguage === 'VF' && !hasVF && hasVOSTFR) {
+                setSelectedLanguage('VOSTFR');
+            }
         } else {
             document.body.style.overflow = 'unset';
         }
         return () => {
             document.body.style.overflow = 'unset';
         };
-    }, [selectedEpisode]);
+    }, [selectedEpisode, selectedLanguage]);
+
+    const getVideoUrl = (episode) => {
+        if (!episode) return '';
+        if (selectedLanguage === 'VF' && episode.videoUrlVF) return episode.videoUrlVF;
+        if (selectedLanguage === 'VOSTFR' && episode.videoUrlVOSTFR) return episode.videoUrlVOSTFR;
+        // Fallback to the other if selected is missing
+        if (episode.videoUrlVF) return episode.videoUrlVF;
+        if (episode.videoUrlVOSTFR) return episode.videoUrlVOSTFR;
+        return episode.videoUrl || ''; // Legacy fallback
+    };
 
     return (
         <>
@@ -143,21 +164,60 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
             {selectedEpisode && (
                 <div className={styles.modalOverlay} onClick={() => setSelectedEpisode(null)}>
                     <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
-                        <button
-                            className={styles.closeButton}
-                            onClick={() => setSelectedEpisode(null)}
-                        >
-                            <X size={24} />
-                        </button>
+                        <div className={styles.modalHeader} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', paddingBottom: 0, position: 'relative', zIndex: 20 }}>
+                            <div className={styles.languageSelector} style={{ display: 'flex', gap: '1rem' }}>
+                                <button
+                                    style={{
+                                        padding: '0.5rem 1rem',
+                                        borderRadius: '4px',
+                                        border: 'none',
+                                        cursor: selectedEpisode.videoUrlVOSTFR ? 'pointer' : 'not-allowed',
+                                        backgroundColor: selectedLanguage === 'VOSTFR' ? '#e50914' : '#333',
+                                        color: 'white',
+                                        fontWeight: 'bold',
+                                        opacity: selectedEpisode.videoUrlVOSTFR ? 1 : 0.5
+                                    }}
+                                    onClick={() => selectedEpisode.videoUrlVOSTFR && setSelectedLanguage('VOSTFR')}
+                                    disabled={!selectedEpisode.videoUrlVOSTFR}
+                                >
+                                    VOSTFR
+                                </button>
+                                <button
+                                    style={{
+                                        padding: '0.5rem 1rem',
+                                        borderRadius: '4px',
+                                        border: 'none',
+                                        cursor: selectedEpisode.videoUrlVF ? 'pointer' : 'not-allowed',
+                                        backgroundColor: selectedLanguage === 'VF' ? '#e50914' : '#333',
+                                        color: 'white',
+                                        fontWeight: 'bold',
+                                        opacity: selectedEpisode.videoUrlVF ? 1 : 0.5
+                                    }}
+                                    onClick={() => selectedEpisode.videoUrlVF && setSelectedLanguage('VF')}
+                                    disabled={!selectedEpisode.videoUrlVF}
+                                >
+                                    VF
+                                </button>
+                            </div>
+                            <button
+                                className={styles.closeButton}
+                                onClick={() => setSelectedEpisode(null)}
+                                style={{ position: 'static' }}
+                            >
+                                <X size={24} />
+                            </button>
+                        </div>
 
-                        <VideoPlayer
-                            src={selectedEpisode.videoUrl}
-                            title={selectedEpisode.title}
-                            initialTimestamp={selectedEpisode.initialTimestamp}
-                            poster={selectedEpisode.image}
-                        />
+                        <div style={{ position: 'relative', zIndex: 1, flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', background: '#000' }}>
+                            <VideoPlayer
+                                src={getVideoUrl(selectedEpisode)}
+                                title={selectedEpisode.title}
+                                initialTimestamp={selectedEpisode.initialTimestamp}
+                                poster={selectedEpisode.image}
+                            />
+                        </div>
 
-                        <div style={{ padding: '1.5rem' }}>
+                        <div style={{ padding: '1.5rem', position: 'relative', zIndex: 20 }}>
                             <h2 style={{ fontSize: '1.5rem', marginBottom: '0.5rem' }}>{selectedEpisode.title}</h2>
                             {selectedEpisode.episodesInclus && (
                                 <p style={{ color: '#a0a0a0', marginBottom: '1rem', fontWeight: 500 }}>

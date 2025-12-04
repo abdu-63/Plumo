@@ -49,7 +49,7 @@ export default function SeriesHero({ series }) {
                         </div>
 
                         <div className={styles.meta}>
-                            <span>VOSTFR | VF</span>
+                            <span>{series.language || 'inconnue'}</span>
                         </div>
 
                         <p className={styles.synopsis}>{series.synopsis}</p>

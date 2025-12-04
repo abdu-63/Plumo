@@ -24,7 +24,7 @@ export default function VideoPlayer({ src, title, series, episode, initialTimest
             ],
         },
         options: {
-            autoplay: true, // We handle autoplay manually to avoid conflicts with seeking
+            autoplay: false, // We handle autoplay manually to avoid conflicts with seeking
             controls: [
                 'play-large',
                 'play',
@@ -112,8 +112,8 @@ export default function VideoPlayer({ src, title, series, episode, initialTimest
 
     return (
         <div className={styles.container}>
-            <div className={styles.videoWrapper}>
-                <Plyr {...plyrProps} ref={playerRef} key={`${src}-${poster}`} />
+            <div className={styles.videoWrapper} key={`${src}-${poster}`}>
+                <Plyr {...plyrProps} ref={playerRef} />
             </div>
         </div>
     );

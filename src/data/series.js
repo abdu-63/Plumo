@@ -6,6 +6,7 @@ export const seriesData = {
         "synopsis": "Henshū - Okajima Rokuro est un jeune diplômé qui mène une vie morose depuis qu'il a intégré une grande firme japonaise. Sa triste existence va brusquement être bouleversée lorsqu'il va être pris en otage par une bande de pirates des mers venus lui dérober un disque au contenu douteux. D'abord malmené par Levi, la tête brulée du groupe, puis trahi par ses employeurs, Rokuro va se montrer plus casse-cou qu'il en a l'air et prendre goût à cette vie de mercenaires rythmée par les montées d'adrénaline. C'est ainsi que sous le surnom Rock, notre héros va rejoindre Dutch, Levi et Benny trois pirates des temps modernes.",
         "kaieurs": "Khyinn",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Black_Lagoon_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Black_Lagoon.webp",
         "backgroundImage": "/background/black_lagoon_background.png",
@@ -20,7 +21,8 @@ export const seriesData = {
                         "duration": "01h02",
                         "episodesInclus": "1 - 3",
                         "image": "/vignettes/33_Black Lagoon_Le Black Lagoon.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -29,7 +31,8 @@ export const seriesData = {
                         "duration": "01h22",
                         "episodesInclus": "4 - 7",
                         "image": "/vignettes/33_Black Lagoon_La Résurrection de l_Aigle.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -38,7 +41,8 @@ export const seriesData = {
                         "duration": "00h57",
                         "episodesInclus": "8 - 10",
                         "image": "/vignettes/33_Black Lagoon_Rasta Blasta.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -47,7 +51,8 @@ export const seriesData = {
                         "duration": "00h42",
                         "episodesInclus": "11 - 12",
                         "image": "/vignettes/33_Black Lagoon_Révolution ciblée.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -56,7 +61,8 @@ export const seriesData = {
                         "duration": "01h03",
                         "episodesInclus": "13 - 15",
                         "image": "/vignettes/33_Black Lagoon_Les Jumeaux Vampires.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -65,7 +71,8 @@ export const seriesData = {
                         "duration": "01h01",
                         "episodesInclus": "16 - 18",
                         "image": "/vignettes/33_Black Lagoon_Jane.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -74,7 +81,8 @@ export const seriesData = {
                         "duration": "02h04",
                         "episodesInclus": "19 - 24",
                         "image": "/vignettes/33_Black Lagoon_Yukio.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -83,7 +91,8 @@ export const seriesData = {
                         "duration": "02h34",
                         "episodesInclus": "OAV 1 - 5",
                         "image": "/vignettes/33_Black Lagoon_Roberta furie sanguinaire.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -102,6 +111,7 @@ export const seriesData = {
         "synopsis": "Kaï  / Yabaï - Kurosaki Ichigo, un étudiant de quinze ans aux cheveux orange qui aime la bagarre (comme son père) a la particularité de voir les fantômes ainsi que de pouvoir les toucher. Cela l'amène à rencontrer Kuchiki Rukia, un Shinigami (dieu de la mort) qui combat un Hollow. Le déroulement du combat amène Kuchiki à donner ses pouvoirs à Ichigo qui deviens alors lui même un Shinigami. C'est maintenant à son tour de protéger la ville des Hollows.",
         "kaieurs": "Mixouille - Johker",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Bleach_Yabai_(Johker)",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Bleach.webp",
         "backgroundImage": "/background/bleach_background.png",
@@ -116,7 +126,8 @@ export const seriesData = {
                         "duration": "0:52:59",
                         "episodesInclus": "1 - 3",
                         "image": "/vignettes/14_Bleach_Death and Strawberry.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -125,7 +136,8 @@ export const seriesData = {
                         "duration": "1:42:21",
                         "episodesInclus": "4 - 9",
                         "image": "/vignettes/14_Bleach_Memories in the rain.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -134,7 +146,8 @@ export const seriesData = {
                         "duration": "1:39:00",
                         "episodesInclus": "10 - 14",
                         "image": "/vignettes/14_Bleach_Quincy Archer hates you.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -143,7 +156,8 @@ export const seriesData = {
                         "duration": "1:49:51",
                         "episodesInclus": "15 - 20",
                         "image": "/vignettes/14_Bleach_The Blade And Me.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -157,7 +171,8 @@ export const seriesData = {
                         "duration": "1:30:47",
                         "episodesInclus": "21 - 25",
                         "image": "/vignettes/14_Bleach_Fourteen days for conspiracy.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -166,7 +181,8 @@ export const seriesData = {
                         "duration": "1:39:28",
                         "episodesInclus": "26 - 32",
                         "image": "/vignettes/14_Bleach_Intruderz.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -175,7 +191,8 @@ export const seriesData = {
                         "duration": "1:46:54",
                         "episodesInclus": "34 - 40",
                         "image": "/vignettes/14_Bleach_The Dead _ the Undead.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -184,7 +201,8 @@ export const seriesData = {
                         "duration": "1:33:44",
                         "episodesInclus": "40 - 45",
                         "image": "/vignettes/14_Bleach_Secrets of the Moon.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -193,7 +211,8 @@ export const seriesData = {
                         "duration": "1:15:39",
                         "episodesInclus": "45 - 51",
                         "image": "/vignettes/14_Bleach_Suspicion for Assassination.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -202,7 +221,8 @@ export const seriesData = {
                         "duration": "2:05:39",
                         "episodesInclus": "51 - 57",
                         "image": "/vignettes/14_Bleach_No Goodbye.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -211,7 +231,8 @@ export const seriesData = {
                         "duration": "2:00:32",
                         "episodesInclus": "58 - 64",
                         "image": "/vignettes/14_Bleach_End of Hypnosis.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -225,7 +246,8 @@ export const seriesData = {
                         "duration": "01:39:34",
                         "episodesInclus": "110 - 115",
                         "image": "/vignettes/14_Bleach_Eyes of the Unknown.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -234,7 +256,8 @@ export const seriesData = {
                         "duration": "01:42:06",
                         "episodesInclus": "116 - 122",
                         "image": "/vignettes/14_Bleach_Mala Suerte.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -243,7 +266,8 @@ export const seriesData = {
                         "duration": "01:33:34",
                         "episodesInclus": "122 - 138",
                         "image": "/vignettes/14_Bleach_Shaking Throne.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -252,7 +276,8 @@ export const seriesData = {
                         "duration": "01:25:32",
                         "episodesInclus": "138 - 143",
                         "image": "/vignettes/14_Bleach_The Mascaron Drive.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -261,7 +286,8 @@ export const seriesData = {
                         "duration": "01:38:20",
                         "episodesInclus": "143 - 153",
                         "image": "/vignettes/14_Bleach_United On The Desert.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -270,7 +296,8 @@ export const seriesData = {
                         "duration": "01:56:25",
                         "episodesInclus": "154 - 162",
                         "image": "/vignettes/14_Bleach_The Slashing Opera.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -279,7 +306,8 @@ export const seriesData = {
                         "duration": "02:37:32",
                         "episodesInclus": "162 - 195",
                         "image": "/vignettes/14_Bleach_Unleash the Beast.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -288,7 +316,8 @@ export const seriesData = {
                         "duration": "01:59:42",
                         "episodesInclus": "196 - 203",
                         "image": "/vignettes/14_Bleach_Intruderz 2.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -297,7 +326,8 @@ export const seriesData = {
                         "duration": "01:37:19",
                         "episodesInclus": "206 - 212",
                         "image": "/vignettes/14_Bleach_Turn Back the Pendulum.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 10,
@@ -306,7 +336,8 @@ export const seriesData = {
                         "duration": "02:21:07",
                         "episodesInclus": "215 - 226",
                         "image": "/vignettes/14_Bleach_Knockdown Monsters.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 11,
@@ -315,7 +346,8 @@ export const seriesData = {
                         "duration": "02:07:49",
                         "episodesInclus": "267 - 278",
                         "image": "/vignettes/14_Bleach_heart.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 12,
@@ -324,7 +356,8 @@ export const seriesData = {
                         "duration": "02:24:39",
                         "episodesInclus": "279 - 291",
                         "image": "/vignettes/14_Bleach_Vice it.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 13,
@@ -333,7 +366,8 @@ export const seriesData = {
                         "duration": "01:42:50",
                         "episodesInclus": "292 - 301",
                         "image": "/vignettes/14_Bleach_Back from Blind.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 14,
@@ -342,7 +376,8 @@ export const seriesData = {
                         "duration": "01:43:22",
                         "episodesInclus": "302 - 342",
                         "image": "/vignettes/14_Bleach_Deicide.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -356,7 +391,8 @@ export const seriesData = {
                         "duration": "02:04:28",
                         "episodesInclus": "343 - 350",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -365,7 +401,8 @@ export const seriesData = {
                         "duration": "01:47:57",
                         "episodesInclus": "351 - 360",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -374,7 +411,8 @@ export const seriesData = {
                         "duration": "1:57:30",
                         "episodesInclus": "",
                         "image": "/vignettes/14_Bleach_Fullbring.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -383,7 +421,8 @@ export const seriesData = {
                         "duration": "01:52:48",
                         "episodesInclus": "361 - 366",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -392,7 +431,8 @@ export const seriesData = {
                         "duration": "1:49:45",
                         "episodesInclus": "",
                         "image": "/vignettes/14_Bleach_Book of the End.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -401,7 +441,8 @@ export const seriesData = {
                         "duration": "1:48:19",
                         "episodesInclus": "",
                         "image": "/vignettes/14_Bleach_Shinigami Suppléant.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -419,6 +460,7 @@ export const seriesData = {
         "synopsis": "Henshū - Taiju, un lycéen comme les autres, raconte à son meilleur ami Senku, un génie des sciences, qu'il est sur le point de révéler ses sentiments à Yuzuriha, une fille dont il est secrètement amoureux depuis quelques années. Alors que le jeune homme s'apprête à lui déclarer sa flamme, une lumière brillante apparaît dans le ciel et transforme toute l'humanité en statues de pierres. Lorsque Taiju réussit finalement à se libérer, il se retrouve face à un monde complètement différent où la nature a repris ses droits. Mais il n'est pas le seul à s'être réveillé. Son ami Senku, qui l'a précédé dans son éveil, lui annonce que 3 700 ans se sont écoulés depuis le mystérieux événement. Ensemble ils devront allier les compétences scientifiques exceptionnelles de l'un et les aptitudes physiques de l'autre pour sauver les 7 milliards d'êtres humains encore pétrifiés et découvrir l'origine de cette catastrophe.",
         "kaieurs": "Khyinn, Roro, MECHAPOULPE",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Dr.Stone_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Dr_Stone.webp",
         "backgroundImage": "/background/dr_stone_background.png",
@@ -433,7 +475,8 @@ export const seriesData = {
                         "duration": "01h31",
                         "episodesInclus": "1 - 5",
                         "image": "/vignettes/44_Dr Stone_Prologue.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -442,7 +485,8 @@ export const seriesData = {
                         "duration": "00h32",
                         "episodesInclus": "5 - 6",
                         "image": "/vignettes/44_Dr Stone_Dr Stone_ le commencement.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -451,7 +495,8 @@ export const seriesData = {
                         "duration": "01h04",
                         "episodesInclus": "7 - 9",
                         "image": "/vignettes/44_Dr Stone_Nous brandirons la lumière de la science.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -460,7 +505,8 @@ export const seriesData = {
                         "duration": "02h02",
                         "episodesInclus": "10 - 15",
                         "image": "/vignettes/44_Dr Stone_Sauvons Ruri _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -469,7 +515,8 @@ export const seriesData = {
                         "duration": "00h41",
                         "episodesInclus": "16 - 17",
                         "image": "/vignettes/44_Dr Stone_Les origines du village Ishigami.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -478,7 +525,8 @@ export const seriesData = {
                         "duration": "02h28",
                         "episodesInclus": "18 - 24",
                         "image": "/vignettes/44_Dr Stone_Le téléphone portable.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -487,7 +535,8 @@ export const seriesData = {
                         "duration": "01h34",
                         "episodesInclus": "26 - 30",
                         "image": "/vignettes/44_Dr Stone_Chrome le scientifique.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -496,7 +545,8 @@ export const seriesData = {
                         "duration": "01h30",
                         "episodesInclus": "31 - 35",
                         "image": "/vignettes/44_Dr Stone_Cryogénisation.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -505,7 +555,8 @@ export const seriesData = {
                         "duration": "00h53",
                         "episodesInclus": "OAV : Ryusui",
                         "image": "/vignettes/44_Dr Stone_Pétrole_ Montgolfière et Argent.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -519,7 +570,8 @@ export const seriesData = {
                         "duration": "01h39",
                         "episodesInclus": "36 - 40",
                         "image": "/vignettes/44_Dr Stone_Objectif Perseus.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -528,7 +580,8 @@ export const seriesData = {
                         "duration": "2h03",
                         "episodesInclus": "41 - 46",
                         "image": "/vignettes/44_Dr Stone_L_île aux trésors.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -537,7 +590,8 @@ export const seriesData = {
                         "duration": "02h39",
                         "episodesInclus": "47 - 54",
                         "image": "/vignettes/44_Dr Stone_Médusa.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -546,7 +600,8 @@ export const seriesData = {
                         "duration": "00h54",
                         "episodesInclus": "55 - 57",
                         "image": "/vignettes/44_Dr Stone_Nouvel Objectif.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -564,6 +619,7 @@ export const seriesData = {
         "synopsis": "Yabaï - Alors qu'elle parcourt les routes de montagnes à moto, Bulma fait une bien étrange rencontre en la personne de Sangoku, un petit garçon étonnamment fort, résistant et possédant une queue, comme les singes. Il possède un trésor qu'elle recherche, une boule de cristal, mais ne veut pas la lui céder, c'est un cadeaux que lui a laissé son grand-père Sangohan. Ils trouvent finalement un compromis, et Sangoku part avec elle à la recherche des 7 boules de cristal dont on dit qu'elles exaucent n'importe quel souhait une fois réunis.",
         "kaieurs": "Mixouille",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Dragon_Ball_Yabai",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Dragon_Ball.webp",
         "backgroundImage": "/background/dragon_ball_background.png",
@@ -578,7 +634,8 @@ export const seriesData = {
                         "duration": "1:45:13",
                         "episodesInclus": "1 - 6",
                         "image": "/vignettes/31_Dragon Ball_A la recherche des Dragon Balls.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -587,7 +644,8 @@ export const seriesData = {
                         "duration": "1:45:00",
                         "episodesInclus": "7 - 13",
                         "image": "/vignettes/31_Dragon Ball_Le Roi et le Singe.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -601,7 +659,8 @@ export const seriesData = {
                         "duration": "1:45:00",
                         "episodesInclus": "14 - 20",
                         "image": "/vignettes/31_Dragon Ball_L_Entraînement selon l_Ermite.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -610,7 +669,8 @@ export const seriesData = {
                         "duration": "2:10:39",
                         "episodesInclus": "21 - 28",
                         "image": "/vignettes/31_Dragon Ball_Le 21e Tenkaichi Budokai.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -624,7 +684,8 @@ export const seriesData = {
                         "duration": "1:55:04",
                         "episodesInclus": "29 + 34 - 42",
                         "image": "/vignettes/31_Dragon Ball_Le Red Ribon.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -633,7 +694,8 @@ export const seriesData = {
                         "duration": "2:44:48",
                         "episodesInclus": "43 + 44 + 46 - 57",
                         "image": "/vignettes/31_Dragon Ball_Le Commandant Blue.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -642,7 +704,8 @@ export const seriesData = {
                         "duration": "2:02:02",
                         "episodesInclus": "58 - 68",
                         "image": "/vignettes/31_Dragon Ball_La Tour Karin.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -656,7 +719,8 @@ export const seriesData = {
                         "duration": "2:08:05",
                         "episodesInclus": "69 - 78",
                         "image": "/vignettes/31_Dragon Ball_Baba la Voyante.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -670,7 +734,8 @@ export const seriesData = {
                         "duration": "2:58:32",
                         "episodesInclus": "84 - 101",
                         "image": "/vignettes/31_Dragon Ball_Le 22e Tenkaichi Budokai.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -684,7 +749,8 @@ export const seriesData = {
                         "duration": "2:14:05",
                         "episodesInclus": "102 - 112",
                         "image": "/vignettes/31_Dragon Ball_Le Roi Démon.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -693,7 +759,8 @@ export const seriesData = {
                         "duration": "1:56:40",
                         "episodesInclus": "113 - 122",
                         "image": "/vignettes/31_Dragon Ball_Le King Castle.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -707,7 +774,8 @@ export const seriesData = {
                         "duration": "1:30:15",
                         "episodesInclus": "123 - 126 + 133 - 135",
                         "image": "/vignettes/31_Dragon Ball_Le Temple Céleste.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -716,7 +784,8 @@ export const seriesData = {
                         "duration": "1:32:24",
                         "episodesInclus": "136 - 141",
                         "image": "/vignettes/31_Dragon Ball_Le 23e Tenkaichi Budokai.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -725,7 +794,8 @@ export const seriesData = {
                         "duration": "1:51:53",
                         "episodesInclus": "142 - 148",
                         "image": "/vignettes/31_Dragon Ball_Piccolo.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -743,6 +813,7 @@ export const seriesData = {
         "synopsis": "Yabaï - (Basé sur la série de 2009) Dragon Ball Z reprend cinq ans après le mariage de Son Goku. Radditz, un mystérieux guerrier de l'espace, arrive sur Terre pour retrouver Goku, qui apprend alors qu'il vient d'une planète de guerriers dont il ne reste plus que quatre survivants. La trame de l'histoire repose sur une succession d'adversaires à combattre, de plus en plus forts, mais il y a aussi fréquemment un contexte de quête ou de voyage qui donne un intérêt autre que les simples duels.",
         "kaieurs": "Mixouille",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Dragon_Ball_Z_Yabai",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Dragon_Ball_Z.webp",
         "backgroundImage": "/background/dragon_ball_z_background.png",
@@ -757,7 +828,8 @@ export const seriesData = {
                         "duration": "1:28:04",
                         "episodesInclus": "1 - 5",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_La Menace Saiyenne.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -766,7 +838,8 @@ export const seriesData = {
                         "duration": "1:47:39",
                         "episodesInclus": "6 - 12",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_L_Autre Monde.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -775,7 +848,8 @@ export const seriesData = {
                         "duration": "1:33:27",
                         "episodesInclus": "13 - 17",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Vegeta.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -789,7 +863,8 @@ export const seriesData = {
                         "duration": "1:52:37",
                         "episodesInclus": "18 - 23",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_La Planète Namek.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -798,7 +873,8 @@ export const seriesData = {
                         "duration": "2:06:28",
                         "episodesInclus": "24 - 30",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Le Commando Ginyu.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -807,7 +883,8 @@ export const seriesData = {
                         "duration": "1:48:41",
                         "episodesInclus": "31 - 36",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_L_Apparition de Polunga.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -816,7 +893,8 @@ export const seriesData = {
                         "duration": "1:24:21",
                         "episodesInclus": "37 - 42",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Freezer.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -825,7 +903,8 @@ export const seriesData = {
                         "duration": "2:32:57",
                         "episodesInclus": "43 - 54",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Le Choc des Titans.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -839,7 +918,8 @@ export const seriesData = {
                         "duration": "1:51:07",
                         "episodesInclus": "55 - 61",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Le Visiteur du Futur.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -848,7 +928,8 @@ export const seriesData = {
                         "duration": "1:41:20",
                         "episodesInclus": "62 - 67",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Les Guerriers de Métal.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -857,7 +938,8 @@ export const seriesData = {
                         "duration": "1:57:22",
                         "episodesInclus": "68 - 75",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_En quête de perfection.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -866,7 +948,8 @@ export const seriesData = {
                         "duration": "1:39:55",
                         "episodesInclus": "76 - 83",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Super Vegeta.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -875,7 +958,8 @@ export const seriesData = {
                         "duration": "1:38:48",
                         "episodesInclus": "84 - 90",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_Cell Game.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -884,7 +968,8 @@ export const seriesData = {
                         "duration": "1:42:31",
                         "episodesInclus": "91 - 98",
                         "image": "/vignettes/32_Dragon Ball Z (2009)_La Relève.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -902,6 +987,7 @@ export const seriesData = {
         "synopsis": "FAN/CUT - L'histoire commence dix ans après la fin de Dragon Ball Z, quand Son Gokû est transformé en enfant, à cause de Pilaf, par le Dragon sacré. Il doit rechercher les Dragon Balls pour redevenir normal et surtout sauver la terre qui, si les dragon balls ne sont pas réunies au bout d'un an, se désintègrera. Il part donc avec Trunks et Pan (qui s'est invitée sans leur autorisation) rechercher ces boules de cristal éparpillées dans toute la galaxie.",
         "kaieurs": "Kaimisama",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Dragon_Ball_GT_FAN/CUT",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Dragon_Ball_GT.webp",
         "backgroundImage": "/background/dragon_ball_gt_background.png",
@@ -916,7 +1002,8 @@ export const seriesData = {
                         "duration": "2:02:53",
                         "episodesInclus": "1 - 24",
                         "image": "/vignettes/1_Dragon Ball GT_Le grand voyage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -925,7 +1012,8 @@ export const seriesData = {
                         "duration": "1:58:43",
                         "episodesInclus": "25 - 32",
                         "image": "/vignettes/1_Dragon Ball GT_La vengeance Tsuful _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -934,7 +1022,8 @@ export const seriesData = {
                         "duration": "1:57:09",
                         "episodesInclus": "33 - 40",
                         "image": "/vignettes/1_Dragon Ball GT_La niveau 4 _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -943,7 +1032,8 @@ export const seriesData = {
                         "duration": "1:28:39",
                         "episodesInclus": "41 - 46",
                         "image": "/vignettes/1_Dragon Ball GT_L_enfer sur Terre _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -952,7 +1042,8 @@ export const seriesData = {
                         "duration": "2:31:05",
                         "episodesInclus": "47 - 64",
                         "image": "/vignettes/1_Dragon Ball GT_Les dragons maléfiques __.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -970,6 +1061,7 @@ export const seriesData = {
         "synopsis": "Après le combat contre Boo, la Terre connait une période de paix. Cependant, le dieu de la destruction, Beerus, vient de se réveiller d'un sommeil de 39 ans avec l'intention d'affronter le Super Saïyen Divin, le guerrier légendaire dont parle une ancienne prophétie exprimée par le Poisson Oracle.",
         "kaieurs": "Kaimisama",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Dragon_Ball_Super_Ka%C3%AF",
+        "language": "VOSTFR",
         "tags": [],
         "image": "/images/Dragon_Ball_Super.webp",
         "backgroundImage": "/background/dragon_ball_super_background.png",
@@ -984,7 +1076,8 @@ export const seriesData = {
                         "duration": "1:56:27",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Dieu contre dieu.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -998,7 +1091,8 @@ export const seriesData = {
                         "duration": "2:13:04",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_La résurrection de l_empereur.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1012,7 +1106,8 @@ export const seriesData = {
                         "duration": "50:38",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Les super Dragon balls.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1021,7 +1116,8 @@ export const seriesData = {
                         "duration": "2:12:53",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Univers 6 VS Univers 7 _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1035,7 +1131,8 @@ export const seriesData = {
                         "duration": "2:15:20",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Un SOS venu du futur _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1044,7 +1141,8 @@ export const seriesData = {
                         "duration": "2:10:16",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_La justice divine __.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1058,7 +1156,8 @@ export const seriesData = {
                         "duration": "1:41:07",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Le tournoi du pouvoir.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1067,7 +1166,8 @@ export const seriesData = {
                         "duration": "1:18:17",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Le recrutement.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1076,7 +1176,8 @@ export const seriesData = {
                         "duration": "2:21:10",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Battle royale _.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1085,7 +1186,8 @@ export const seriesData = {
                         "duration": "1:43:03",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_Les dernières minutes ___.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1094,7 +1196,8 @@ export const seriesData = {
                         "duration": "1:56:53",
                         "episodesInclus": "",
                         "image": "/vignettes/52_Dragon Ball Super_L_Ultime combat pour la survie __.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -1112,6 +1215,7 @@ export const seriesData = {
         "synopsis": "Kaï (Le premier film est issu du premier anime FMA (2003), tout le reste est issu de Brotherhood (2009)) - Edward Elric et son frère Alphonse Elric sont de jeunes Alchimistes. En tentant de ramener leur\r\nmère à la vie, ils ont payé un lourd tribut, et ils tentent désormais de récupérer ce qu'ils ont perdu\r\ngrâce à un objet légendaire : la Pierre Philosophale.\r\n\r\nPour cela, Edward est devenu Alchimiste d'État : le Fullmetal Alchemist. Mais au cours de leurs\r\nrecherches, bien des épreuves attendent les deux frères et des êtres étranges : les Homonculus,\r\nles poursuivent.",
         "kaieurs": "Johker",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Fullmetal_Alchemist_Ka%C3%AF",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Fullmetal_Alchemist.webp",
         "backgroundImage": "/background/fullmetal_alchemist_background.png",
@@ -1126,7 +1230,8 @@ export const seriesData = {
                         "duration": "1:06:46",
                         "episodesInclus": "1 + 2 + 9 + 5 (2003)",
                         "image": "/vignettes/17_Fullmetal Alchemist_L_Alchimiste Fullmetal.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1135,7 +1240,8 @@ export const seriesData = {
                         "duration": "1:33:48",
                         "episodesInclus": "5 (2003) + 4 - 9",
                         "image": "/vignettes/17_Fullmetal Alchemist_Le Cinquième Laboratoire.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1144,7 +1250,8 @@ export const seriesData = {
                         "duration": "2:13:46",
                         "episodesInclus": "2 + 9 - 14",
                         "image": "/vignettes/17_Fullmetal Alchemist_Jour de pluie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1158,7 +1265,8 @@ export const seriesData = {
                         "duration": "1:36:36",
                         "episodesInclus": "15 - 19",
                         "image": "/vignettes/17_Fullmetal Alchemist_Trahison à Central.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1167,7 +1275,8 @@ export const seriesData = {
                         "duration": "2:20:02",
                         "episodesInclus": "20 - 27",
                         "image": "/vignettes/17_Fullmetal Alchemist_Le Ventre du mal.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1176,7 +1285,8 @@ export const seriesData = {
                         "duration": "1:32:44",
                         "episodesInclus": "28 - 31",
                         "image": "/vignettes/17_Fullmetal Alchemist_Fantômes d_Ishval.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1190,7 +1300,8 @@ export const seriesData = {
                         "duration": "1:55:29",
                         "episodesInclus": "32 - 37",
                         "image": "/vignettes/17_Fullmetal Alchemist_La Reine des glaces.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1199,7 +1310,8 @@ export const seriesData = {
                         "duration": "1:31:59",
                         "episodesInclus": "38 - 42",
                         "image": "/vignettes/17_Fullmetal Alchemist_Le petit être dans la fiole.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1208,7 +1320,8 @@ export const seriesData = {
                         "duration": "1:14:55",
                         "episodesInclus": "42 - 45",
                         "image": "/vignettes/17_Fullmetal Alchemist_Nord et Est.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1222,7 +1335,8 @@ export const seriesData = {
                         "duration": "1:20:20",
                         "episodesInclus": "46 - 49",
                         "image": "/vignettes/17_Fullmetal Alchemist_L_ombre qui approche.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1231,7 +1345,8 @@ export const seriesData = {
                         "duration": "2:52:00",
                         "episodesInclus": "50 - 58",
                         "image": "/vignettes/17_Fullmetal Alchemist_Le Jour promis.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1240,7 +1355,8 @@ export const seriesData = {
                         "duration": "2:16:13",
                         "episodesInclus": "58 - 64",
                         "image": "/vignettes/17_Fullmetal Alchemist_L_Échange équivalent.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -1258,6 +1374,7 @@ export const seriesData = {
         "synopsis": "Henshū - Ippo Makunouchi est un jeune garçon de 16 ans tout ce qu'il y a de plus ordinaire. Il passe son temps libre à aider sa mère à tenir son affaire de pêche, de ce fait il n'a pas d'amis. Un jour, alors qu'il se fait maltraiter par une bande de jeunes plus âgés que lui, Takamura, un des plus grands boxeurs lui vient en aide et l'emmène dans son club de boxe pour le soigner.\r\nUne fois remis sur pieds, Ippo s'essaye à la boxe suite à une proposition de Takamura et il se révèle posséder une force incroyable. Takamura, subjugué par la force du jeune garçon lui propose de venir s'entraîner dans son club. Ippo découvre alors en lui une véritable passion pour la boxe. De plus, il est extrêmement heureux d'être aux cotés de Takamura qu'il voit comme son modèle. C'est alors le début d'une longue aventure semée d'embûches pour le jeune Ippo.",
         "kaieurs": "Livai",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Hajime_no_Ippo_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Hajime_no_Ippo.webp",
         "backgroundImage": "/background/hajime_no_ippo_background.png",
@@ -1272,7 +1389,8 @@ export const seriesData = {
                         "duration": "1:58:22",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Makunouchi Ippo.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1281,7 +1399,8 @@ export const seriesData = {
                         "duration": "1:28:50",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Les débuts d_un pro.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "https://www.udrop.com/file/NyGG/Niloya_-_Yeni_sezon_tüm_şarkılarım_bir_arada.mp4",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1290,7 +1409,8 @@ export const seriesData = {
                         "duration": "54:48",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Crochet VS Uppercut.webp",
-                        "videoUrl": "https://www.udrop.com/file/O2OB/Hajime_no_Ippo_Henshū_03_-_Crochet_VS_Uppercut_-_576p.VF.x264.mp4"
+                        "videoUrlVF": "https://www.udrop.com/file/O2OB/Hajime_no_Ippo_Henshū_03_-_Crochet_VS_Uppercut_-_576p.VF.x264.mp4",
+                        "videoUrlVOSTFR": "https://www.udrop.com/file/O2OC/Hajime_no_Ippo_Henshū_03_-_Crochet_VS_Uppercut_-_576p.VOSTFR.x264.mp4"
                     },
                     {
                         "id": 4,
@@ -1299,7 +1419,8 @@ export const seriesData = {
                         "duration": "1:28:38",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Accrochage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1308,7 +1429,8 @@ export const seriesData = {
                         "duration": "52:10",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Le Shotgun.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -1317,7 +1439,8 @@ export const seriesData = {
                         "duration": "1:58:36",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Une finale tant attendue.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -1326,7 +1449,8 @@ export const seriesData = {
                         "duration": "1:49:15",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Le Rocky de Naniwa.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -1335,7 +1459,8 @@ export const seriesData = {
                         "duration": "1:12:32",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Les deux Espoirs.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -1344,7 +1469,8 @@ export const seriesData = {
                         "duration": "40:29",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Un Contre qui surpasse un Contre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 10,
@@ -1353,7 +1479,8 @@ export const seriesData = {
                         "duration": "1:24:16",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Speed Star.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 11,
@@ -1362,7 +1489,8 @@ export const seriesData = {
                         "duration": "2:02:48",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_White Fang.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 12,
@@ -1371,7 +1499,8 @@ export const seriesData = {
                         "duration": "2:02:33",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Le Poing du Roi.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 13,
@@ -1380,7 +1509,8 @@ export const seriesData = {
                         "duration": "1:43:40",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Le Chemin du Retour.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 14,
@@ -1389,7 +1519,8 @@ export const seriesData = {
                         "duration": "42:23",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Jeunesse Ardente.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 15,
@@ -1398,7 +1529,8 @@ export const seriesData = {
                         "duration": "1:45:02",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Camp d_été.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 16,
@@ -1407,7 +1539,8 @@ export const seriesData = {
                         "duration": "2:03:37",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Lallappallooza.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 17,
@@ -1416,7 +1549,8 @@ export const seriesData = {
                         "duration": "2:23:01",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Champion Road.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1430,7 +1564,8 @@ export const seriesData = {
                         "duration": "1:00:14",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Bloody Cross.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1439,7 +1574,8 @@ export const seriesData = {
                         "duration": "1:28:35",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Niveau mondial.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1448,7 +1584,8 @@ export const seriesData = {
                         "duration": "",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Hammer Nao.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1457,7 +1594,8 @@ export const seriesData = {
                         "duration": "",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Les deux Faucons.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1466,7 +1604,8 @@ export const seriesData = {
                         "duration": "02:21:41",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Battle of Hawk.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1480,7 +1619,8 @@ export const seriesData = {
                         "duration": "1:12:20",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Guerre sous-marine.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1489,7 +1629,8 @@ export const seriesData = {
                         "duration": "1:19:21",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Spectacle cosmique.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1498,7 +1639,8 @@ export const seriesData = {
                         "duration": "2:20:35",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Le Dragon d_Owari.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1507,7 +1649,8 @@ export const seriesData = {
                         "duration": "0:56:32",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Yagi interdit.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1516,7 +1659,8 @@ export const seriesData = {
                         "duration": "1:54:13",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_A Passing Point.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -1525,7 +1669,8 @@ export const seriesData = {
                         "duration": "1:22:40",
                         "episodesInclus": "",
                         "image": "/vignettes/15_Hajime no Ippo_Après-Guerre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -1543,6 +1688,7 @@ export const seriesData = {
         "synopsis": "Kaï - Le jeune Gon vit sur une petite île avec sa tante. Abandonné par son père qui est un Hunter, à la fois un aventurier et un chasseur de primes, Gon décide à l'âge de 12 ans de partir pour devenir un Hunter.\r\nCela ne sera pas chose aisée, il devra passer une suite de tests et examens en compagnie de milliers d'autres prétendants au titre de Hunter.\r\nIl sera aidé par de nouvelles connaissances qui aspirent au même but que lui tel que Kurapika, Leorio et Killua.",
         "kaieurs": "Avalokitesvara",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Hunter_x_Hunter_(2011)_Ka%C3%AF",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Hunter_x_Hunter_2011.webp",
         "backgroundImage": "/background/hunter_x_hunter_background.png",
@@ -1557,7 +1703,8 @@ export const seriesData = {
                         "duration": "1:44:26",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Devenir Hunter.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1566,7 +1713,8 @@ export const seriesData = {
                         "duration": "1:36:04",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Tour aux Astuces.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1575,7 +1723,8 @@ export const seriesData = {
                         "duration": "1:29:21",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Chasseurs et Proies.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1584,7 +1733,8 @@ export const seriesData = {
                         "duration": "1:53:34",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Famille Zoldik.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1598,7 +1748,8 @@ export const seriesData = {
                         "duration": "2:57:59",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Tour Céleste.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1612,7 +1763,8 @@ export const seriesData = {
                         "duration": "1:29:03",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Brigade Fantôme.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1621,7 +1773,8 @@ export const seriesData = {
                         "duration": "2:46:25",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Requiem.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1630,7 +1783,8 @@ export const seriesData = {
                         "duration": "2:30:56",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Tête de l_Araignée.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1644,7 +1798,8 @@ export const seriesData = {
                         "duration": "2:36:10",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Le Jeu Légendaire.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1653,7 +1808,8 @@ export const seriesData = {
                         "duration": "2:34:50",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Lutte de Clans.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1667,7 +1823,8 @@ export const seriesData = {
                         "duration": "1:58:14",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Kaito.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1676,7 +1833,8 @@ export const seriesData = {
                         "duration": "2:08:39",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Faibles et Puissants.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1685,7 +1843,8 @@ export const seriesData = {
                         "duration": "1:38:42",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Le Roi du Monde.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1694,7 +1853,8 @@ export const seriesData = {
                         "duration": "2:14:22",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Jeux de Guerre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1703,7 +1863,8 @@ export const seriesData = {
                         "duration": "1:53:29",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Infiltration.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -1712,7 +1873,8 @@ export const seriesData = {
                         "duration": "1:55:49",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Assaut _Acte I_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -1721,7 +1883,8 @@ export const seriesData = {
                         "duration": "2:06:00",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Assaut _Acte II_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -1730,7 +1893,8 @@ export const seriesData = {
                         "duration": "2:09:39",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Assaut _Acte III_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -1739,7 +1903,8 @@ export const seriesData = {
                         "duration": "1:34:08",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_La Pire des Bêtes.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1753,7 +1918,8 @@ export const seriesData = {
                         "duration": "2:12:43",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Les Douze du Zodiaque.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1762,7 +1928,8 @@ export const seriesData = {
                         "duration": "1:37:52",
                         "episodesInclus": "",
                         "image": "/vignettes/34_Hunter x Hunter (2011)_Un Vaste Monde.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -1780,6 +1947,7 @@ export const seriesData = {
         "synopsis": "Kaï - Au Mont Akina, les courses entre pilotes chevronnés se déroulent tous les week-ends. Mais l'équipe locale des Speedstars semble dépassée par l'arrivée massive de stars du volant. Devant l'impossibilité de relever un défi qui leur est proposé, une seule solution apparaît : faire confiance à la légende urbaine qui court sur un mystérieux pilote local qui dévale la montagne à toute allure. Personne ne soupçonne alors Takumi Fujiwara, un lycéen de dix-huit ans ne connaissant rien aux voitures, d'être ce génie du volant. Le jeune homme ne fait que livrer le Tofu familial dans la région, par conséquent, il connaît les routes du coin par cœur qu'il aborde au volant de sa Toyota Sprinter Trueno (AE86), à une vitesse hallucinante.",
         "kaieurs": "Brazh",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Initial_D_Ka%C3%AF",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Initial_D.webp",
         "backgroundImage": "/background/initial_d_background.png",
@@ -1794,7 +1962,8 @@ export const seriesData = {
                         "duration": "1:22:33",
                         "episodesInclus": "1-5",
                         "image": "/vignettes/56_Initial_D_Film_1_-_Le_fantome_d_Akina.png",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1803,7 +1972,8 @@ export const seriesData = {
                         "duration": "1:32:00",
                         "episodesInclus": "5-10",
                         "image": "/vignettes/56_Initial_D_Film_2_-_Battle_de_l_extreme.png",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1812,7 +1982,8 @@ export const seriesData = {
                         "duration": "1:04:46",
                         "episodesInclus": "10-15",
                         "image": "/vignettes/56_Initial_D_Film_3_-_Duel_a_mort.png",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1821,7 +1992,8 @@ export const seriesData = {
                         "duration": "52:22",
                         "episodesInclus": "15, 21, 23-26",
                         "image": "/vignettes/56_Initial_D_Film_4_-_La_comete_blanche_d_Akagi.png",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1830,7 +2002,8 @@ export const seriesData = {
                         "duration": "2:10:16",
                         "episodesInclus": "15-23",
                         "image": "/vignettes/56_Initial_D_Film_5_-_De_nouveaux_defis_pour_la_86.png",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -1848,6 +2021,7 @@ export const seriesData = {
         "synopsis": "Henshū - Cette longue série nous raconte le destin de la lignée Joestar.\r\nTout commence avec Jonathan Joestar, fils d'un aristocrate anglais, qui vit une existence bien ordinaire. Tout change lorsque Lord Joestar prend sous son aile Dio Brando, jeune homme égocentrique et vaniteux, dont le père vient de décéder. Une rivalité entre les deux garçon s'installe alors, et Dio décide de tout faire pour mettre Jonathan plus bas que terre et s'emparer de l'héritage de Lord Joestar.\r\nLa lutte entre les deux jeunes hommes atteint son paroxysme lorsque Dio enfile un mystérieux masque de pierre Aztèque le changeant en une créature sanguinaire et invincible. Pour Jonathan, il ne fait aucun doute qu'il doit se débarrasser de ce redoutable adversaire, et la bataille qui commence s'étendra jusqu'aux générations futures de la famille Joestar...",
         "kaieurs": "Livai",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Jojo%27s_Bizarre_Adventure_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/JoJos_Bizarre_Adventure.webp",
         "backgroundImage": "/background/jojos_bizarre_adventure_background.png",
@@ -1862,7 +2036,8 @@ export const seriesData = {
                         "duration": "1:06:47",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Dio l_envahisseur.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1871,7 +2046,8 @@ export const seriesData = {
                         "duration": "2:03:18",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_L_onde.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1885,7 +2061,8 @@ export const seriesData = {
                         "duration": "1:23:28",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_L_homme du Pilier.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1894,7 +2071,8 @@ export const seriesData = {
                         "duration": "1:05:05",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Guerriers d_élite ancestraux.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1903,7 +2081,8 @@ export const seriesData = {
                         "duration": "1:28:01",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Les progrès des rivaux.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1912,7 +2091,8 @@ export const seriesData = {
                         "duration": "2:04:12",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_La naissance de l_être suprême.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -1926,7 +2106,8 @@ export const seriesData = {
                         "duration": "1:37:27",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Les Stands.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -1935,7 +2116,8 @@ export const seriesData = {
                         "duration": "1:39:54",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_L_homme aux deux mains droites.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -1944,7 +2126,8 @@ export const seriesData = {
                         "duration": "2:18:23",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Enya.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -1953,7 +2136,8 @@ export const seriesData = {
                         "duration": "1:56:17",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_La lampe merveilleuse.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -1962,7 +2146,8 @@ export const seriesData = {
                         "duration": "1:03:54",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Iggy.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -1971,7 +2156,8 @@ export const seriesData = {
                         "duration": "2:15:51",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_En route pour Le Caire.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -1980,7 +2166,8 @@ export const seriesData = {
                         "duration": "1:31:29",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Une aiguille dans une botte de foin.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -1989,7 +2176,8 @@ export const seriesData = {
                         "duration": "1:30:36",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Le manoir de Dio.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -1998,7 +2186,8 @@ export const seriesData = {
                         "duration": "1:39:40",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_The World.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2012,7 +2201,8 @@ export const seriesData = {
                         "duration": "1:39:53",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Josuke Higashikata.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2021,7 +2211,8 @@ export const seriesData = {
                         "duration": "2:48:09",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Red Hot Chili Pepper.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2030,7 +2221,8 @@ export const seriesData = {
                         "duration": "1:05:34",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Visite chez un mangaka.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2039,7 +2231,8 @@ export const seriesData = {
                         "duration": "2:51:28",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Le Meurtrier.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2048,7 +2241,8 @@ export const seriesData = {
                         "duration": "1:06:42",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Atom Heart Father.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2057,7 +2251,8 @@ export const seriesData = {
                         "duration": "1:59:48",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Jeudi 15 Juillet.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -2066,7 +2261,8 @@ export const seriesData = {
                         "duration": "2:07:40",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Bites The Dust.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2080,7 +2276,8 @@ export const seriesData = {
                         "duration": "01:19:03",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Giorno Giovanna.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2089,7 +2286,8 @@ export const seriesData = {
                         "duration": "01:14:03",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Héritage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2098,7 +2296,8 @@ export const seriesData = {
                         "duration": "02:08:13",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Le gang des tueurs _partie 1_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2107,7 +2306,8 @@ export const seriesData = {
                         "duration": "01:54:50",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Le gang des tueurs _partie 2_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2116,7 +2316,8 @@ export const seriesData = {
                         "duration": "01:44:23",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Cap sur la Sardaigne.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2125,7 +2326,8 @@ export const seriesData = {
                         "duration": "00:57:17",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_15 ans plus tôt.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -2134,7 +2336,8 @@ export const seriesData = {
                         "duration": "01:44:48",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Green Day et Oasis.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -2143,7 +2346,8 @@ export const seriesData = {
                         "duration": "01:21:01",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Requiem.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -2152,7 +2356,8 @@ export const seriesData = {
                         "duration": "00:44:58",
                         "episodesInclus": "",
                         "image": "/vignettes/38_JoJo's Bizarre Adventure_Destin.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2171,6 +2376,7 @@ export const seriesData = {
         "synopsis": "FAN/CUT - En se lançant dans une enquête sur la mort violente de son ami, le boxeur Richard Aldana ne se doute pas qu'il va devoir affronter des ennemis à la force surnaturelle.",
         "kaieurs": "Titou",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Lastman_FAN/CUT",
+        "language": "VF",
         "tags": [],
         "image": "/images/Lastman.webp",
         "backgroundImage": "/background/lastman_background.png",
@@ -2185,7 +2391,8 @@ export const seriesData = {
                         "duration": "1:14:34",
                         "episodesInclus": "1 - 7",
                         "image": "/vignettes/19_Lastman_Siri.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2194,7 +2401,8 @@ export const seriesData = {
                         "duration": "1:35:26",
                         "episodesInclus": "8 - 16",
                         "image": "/vignettes/19_Lastman_La coupe des rois.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2203,7 +2411,8 @@ export const seriesData = {
                         "duration": "1:36:59",
                         "episodesInclus": "17 - 26",
                         "image": "/vignettes/19_Lastman_Chorum le dévoreur.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2221,6 +2430,7 @@ export const seriesData = {
         "synopsis": "Henshu - Rico, apprentie cavernière, part pour sa première exploration en solo dans l'Abysse. Son but est de ramener le plus grand nombre de reliques, mais alors qu'elle sauve son ami d'une créature locale, elle va faire une rencontre surprenante.",
         "kaieurs": "Odji-san",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Made_In_Abyss_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Made_in_Abyss.webp",
         "backgroundImage": "/background/made_in_abyss_background.png",
@@ -2235,7 +2445,8 @@ export const seriesData = {
                         "duration": "2:16:42",
                         "episodesInclus": "1 - 8",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2244,7 +2455,8 @@ export const seriesData = {
                         "duration": "1:56:21",
                         "episodesInclus": "8 - 13",
                         "image": "/vignettes/86_Made in Abyss_La délivrance de l_âme.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2253,7 +2465,8 @@ export const seriesData = {
                         "duration": "1:39:45",
                         "episodesInclus": "Film 3",
                         "image": "/vignettes/86_Made in Abyss_L_aube de l_âme profonde.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2262,7 +2475,8 @@ export const seriesData = {
                         "duration": "1:46:36",
                         "episodesInclus": "1 - 6 (Saison 2)",
                         "image": "/vignettes/86_Made in Abyss_La princesse des ombres.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2271,7 +2485,8 @@ export const seriesData = {
                         "duration": "1:05:32",
                         "episodesInclus": "1 + 3 + 7 + 8 + 12 (Saison 2)",
                         "image": "/vignettes/86_Made in Abyss_La ville d_or incandescente.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2280,7 +2495,8 @@ export const seriesData = {
                         "duration": "1:45:45",
                         "episodesInclus": "9 - 12 (Saison 2)",
                         "image": "/vignettes/86_Made in Abyss_Chaleureuses ténèbres.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2298,6 +2514,7 @@ export const seriesData = {
         "synopsis": "Henshū – Düsseldorf, 1986. Kenzo Tenma, brillant neurochirurgien, sacrifie sa carrière en choisissant d'opérer un enfant blessé par balle plutôt que le maire de la ville. L'enfant survit, le maire meurt, et Tenma est déchu avant que le jeune patient ne disparaisse mystérieusement. Neuf ans plus tard, une série de meurtres désigne Tenma comme le suspect idéal aux yeux de l'inspecteur Rünge. Mais le médecin découvre la vérité : le tueur n'est autre que Johann, le garçon qu'il a jadis sauvé. Devenu fugitif, Tenma traque son ancien patient à travers l'Allemagne pour réparer son erreur : avoir rendu la vie à un véritable « Monstre ».",
         "kaieurs": "Brazh",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Monster_Ka%C3%AF",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Monster.webp",
         "backgroundImage": "/background/monster_background.png",
@@ -2312,7 +2529,8 @@ export const seriesData = {
                         "duration": "2:26:10",
                         "episodesInclus": "1 - 7",
                         "image": "/vignettes/39_Monster_Le Poids d_une Vie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2321,7 +2539,8 @@ export const seriesData = {
                         "duration": "1:36:58",
                         "episodesInclus": "8 - 12",
                         "image": "/vignettes/39_Monster_Kinderheim 511.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2330,7 +2549,8 @@ export const seriesData = {
                         "duration": "2:03:06",
                         "episodesInclus": "13 - 18",
                         "image": "/vignettes/39_Monster_Be My Baby.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2339,7 +2559,8 @@ export const seriesData = {
                         "duration": "1:45:39",
                         "episodesInclus": "19 - 24",
                         "image": "/vignettes/39_Monster_Retrouvailles.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2348,7 +2569,8 @@ export const seriesData = {
                         "duration": "3:00:17",
                         "episodesInclus": "25 - 30",
                         "image": "/vignettes/39_Monster_Les Yeux du Diable _Partie 1_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2357,7 +2579,8 @@ export const seriesData = {
                         "duration": "3:01:27",
                         "episodesInclus": "31 - 39",
                         "image": "/vignettes/39_Monster_Les Yeux du Diable _Partie 2_.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2375,6 +2598,7 @@ export const seriesData = {
         "synopsis": "Henshū - Dans un monde où 80% de la population mondiale possède des super-pouvoirs, ici nommés \"Alters\", n'importe qui peut devenir un héros ou, s'il le souhaite, un criminel. Nous suivons les aventures d'Izuku Midoriya, l'un des rares humains ne possédant pas d'alter, qui rêve pourtant de rejoindre la filière super-héroïque de la grande académie Yuei et de devenir un jour un des plus grands héros de son époque, à l'image de son héros, All Might !",
         "kaieurs": "Johker",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/My_Hero_Academia_Hensh%C5%AB",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/My_Hero_Academia.webp",
         "backgroundImage": "/background/my_hero_academia_background.png",
@@ -2389,7 +2613,8 @@ export const seriesData = {
                         "duration": "1:17:07",
                         "episodesInclus": "01 - 04 (Saison 1)",
                         "image": "/vignettes/30_My Hero Academia_Izuku Midoriya _ Origines.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2398,7 +2623,8 @@ export const seriesData = {
                         "duration": "1:16:43",
                         "episodesInclus": "05 - 08 (Saison 1)",
                         "image": "/vignettes/30_My Hero Academia_Yuei_ l_Académie des Héros.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2407,7 +2633,8 @@ export const seriesData = {
                         "duration": "1:38:03",
                         "episodesInclus": "09 - 13 (Saison 1)",
                         "image": "/vignettes/30_My Hero Academia_Rencontre avec l_Inconnu.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2416,7 +2643,8 @@ export const seriesData = {
                         "duration": "1:22:21",
                         "episodesInclus": "01 - 05 (Saison 2)",
                         "image": "/vignettes/30_My Hero Academia_Tactiques_ plans et stratégies.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2425,7 +2653,8 @@ export const seriesData = {
                         "duration": "2:01:40",
                         "episodesInclus": "06 - 12 (Saison 2)",
                         "image": "/vignettes/30_My Hero Academia_Un chant de glace et de feu.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2434,7 +2663,8 @@ export const seriesData = {
                         "duration": "2:09:19",
                         "episodesInclus": "13 - 20 (Saison 2)",
                         "image": "/vignettes/30_My Hero Academia_Le Tueur de Héros.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -2443,7 +2673,8 @@ export const seriesData = {
                         "duration": "1:24:35",
                         "episodesInclus": "21 - 25 (Saison 2)",
                         "image": "/vignettes/30_My Hero Academia_Ennemi intime.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -2452,7 +2683,8 @@ export const seriesData = {
                         "duration": "1:54:22",
                         "episodesInclus": "02-08 (Saison 3)",
                         "image": "/vignettes/30_My Hero Academia_Festival des Ténèbres.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -2461,7 +2693,8 @@ export const seriesData = {
                         "duration": "1:33:42",
                         "episodesInclus": "08 - 13 (Saison 3)",
                         "image": "/vignettes/30_My Hero Academia_Un pour tous_ tous pour un.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2475,7 +2708,8 @@ export const seriesData = {
                         "duration": "1:34:05",
                         "episodesInclus": "13 - 18 (Saison 3)",
                         "image": "/vignettes/30_My Hero Academia_L_Examen.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2484,7 +2718,8 @@ export const seriesData = {
                         "duration": "1:27:45",
                         "episodesInclus": "19 - 23 (Saison 3)",
                         "image": "/vignettes/30_My Hero Academia_Avis de tempête.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2493,7 +2728,8 @@ export const seriesData = {
                         "duration": "2:02:10",
                         "episodesInclus": "24 (Saison 3) + 01 - 06 (Saison 4)",
                         "image": "/vignettes/30_My Hero Academia_La Saison des rencontres.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2502,7 +2738,8 @@ export const seriesData = {
                         "duration": "2:42:59",
                         "episodesInclus": "07 - 15 (Saison 4)",
                         "image": "/vignettes/30_My Hero Academia_Huit Préceptes de la Mort.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2511,7 +2748,8 @@ export const seriesData = {
                         "duration": "40:41",
                         "episodesInclus": "15 - 17 (Saison 4)",
                         "image": "/vignettes/30_My Hero Academia_Rattrapage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2520,7 +2758,8 @@ export const seriesData = {
                         "duration": "2:08:01",
                         "episodesInclus": "17 - 23 (Saison 4)",
                         "image": "/vignettes/30_My Hero Academia_Après la pluie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -2529,7 +2768,8 @@ export const seriesData = {
                         "duration": "1:03:27",
                         "episodesInclus": "24 + 25 (Saison 4) 01 + 02 (Saison 5)",
                         "image": "/vignettes/30_My Hero Academia_Héritage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -2538,7 +2778,8 @@ export const seriesData = {
                         "duration": "1:42:39",
                         "episodesInclus": "03 - 08 (Saison 5)",
                         "image": "/vignettes/30_My Hero Academia_Au-delà des limites.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -2547,7 +2788,8 @@ export const seriesData = {
                         "duration": "1:11:50",
                         "episodesInclus": "09 - 12 (Saison 5)",
                         "image": "/vignettes/30_My Hero Academia_Izuku Midoriya _ Origines II.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 10,
@@ -2556,7 +2798,8 @@ export const seriesData = {
                         "duration": "1:55:35",
                         "episodesInclus": "12 + 14 + 20 - 24  (Saison 5)",
                         "image": "/vignettes/30_My Hero Academia_My Villain Academia.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 11,
@@ -2565,7 +2808,8 @@ export const seriesData = {
                         "duration": "1:29:02",
                         "episodesInclus": "13 - 18 + 25 (Saison 5)",
                         "image": "/vignettes/30_My Hero Academia_Un pas après l_autre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 12,
@@ -2574,7 +2818,8 @@ export const seriesData = {
                         "duration": "02:00:56",
                         "episodesInclus": "19 + 25 (Saison 5) + 01 - 05 (Saison 6)",
                         "image": "/vignettes/30_My Hero Academia_Hôpital.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 13,
@@ -2583,7 +2828,8 @@ export const seriesData = {
                         "duration": "02:37:03",
                         "episodesInclus": "06 - 14 (Saison 6)",
                         "image": "/vignettes/30_My Hero Academia_La Guerre de Libération.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 14,
@@ -2592,7 +2838,8 @@ export const seriesData = {
                         "duration": "01:23:42",
                         "episodesInclus": "14 - 18 (Saison 6)",
                         "image": "/vignettes/30_My Hero Academia_Un feu qui s_éteint.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2606,7 +2853,8 @@ export const seriesData = {
                         "duration": "02:20:28",
                         "episodesInclus": "19 - 25 (Saison 6)",
                         "image": "/vignettes/30_My Hero Academia_L_Évadé.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2624,6 +2872,7 @@ export const seriesData = {
         "synopsis": "Dans le village de Konoha vit Naruto, un jeune garçon détesté et craint des villageois. Il est craint du fait qu'il détient en lui Kyuubi (démon renard à neuf queues) d'une incroyable force, qui a tué un grand nombre de personnes. Le ninja le plus puissant de Konoha à l'époque, le quatrième Hokage, Minato Namikaze, réussit à sceller ce démon dans le corps de Naruto.\r\nMalheureusement il y laissa la vie.\r\n\r\nC'est ainsi que douze ans plus tard, Naruto rêve de devenir le plus grand Hokage de Konoha afin que tous le reconnaissent à sa juste valeur. Mais la route pour devenir Hokage est très longue et Naruto sera confronté à un bon nombre d'épreuves et devra affronter de nombreux ennemis pour atteindre son but !",
         "kaieurs": "Triggerforce",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Naruto_Yabai_(Triggerforce)",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Naruto.webp",
         "backgroundImage": "/background/Naruto_background.png",
@@ -2638,7 +2887,8 @@ export const seriesData = {
                         "duration": "1:25:23",
                         "episodesInclus": "1 - 5",
                         "image": "/vignettes/24_Naruto_L_épreuve de survie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2652,7 +2902,8 @@ export const seriesData = {
                         "duration": "2:09:42",
                         "episodesInclus": "6 - 12",
                         "image": "/vignettes/24_Naruto_Un vrai ninja.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2661,7 +2912,8 @@ export const seriesData = {
                         "duration": "1:50:22",
                         "episodesInclus": "13 - 19",
                         "image": "/vignettes/24_Naruto_Se battre pour ses rêves.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2675,7 +2927,8 @@ export const seriesData = {
                         "duration": "1:48:09",
                         "episodesInclus": "20 - 25",
                         "image": "/vignettes/24_Naruto_Mise à l_épreuve.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2684,7 +2937,8 @@ export const seriesData = {
                         "duration": "1:32:26",
                         "episodesInclus": "27 - 32",
                         "image": "/vignettes/24_Naruto_Le prédateur.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2693,7 +2947,8 @@ export const seriesData = {
                         "duration": "1:30:30",
                         "episodesInclus": "33 - 37",
                         "image": "/vignettes/24_Naruto_De nouveaux pouvoirs.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2702,7 +2957,8 @@ export const seriesData = {
                         "duration": "2:01:51",
                         "episodesInclus": "38 - 46",
                         "image": "/vignettes/24_Naruto_Retournements de situation.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2711,7 +2967,8 @@ export const seriesData = {
                         "duration": "1:42:52",
                         "episodesInclus": "47 - 51",
                         "image": "/vignettes/24_Naruto_Un génie de l_effort.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -2720,7 +2977,8 @@ export const seriesData = {
                         "duration": "1:37:27",
                         "episodesInclus": "52 - 59",
                         "image": "/vignettes/24_Naruto_Mon nouveau prof.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -2729,7 +2987,8 @@ export const seriesData = {
                         "duration": "1:43:22",
                         "episodesInclus": "60 - 65",
                         "image": "/vignettes/24_Naruto_La Force de changer.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -2738,7 +2997,8 @@ export const seriesData = {
                         "duration": "1:20:29",
                         "episodesInclus": "66 - 73",
                         "image": "/vignettes/24_Naruto_La chute de Konoha.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -2747,7 +3007,8 @@ export const seriesData = {
                         "duration": "1:59:00",
                         "episodesInclus": "71 - 83",
                         "image": "/vignettes/24_Naruto_Un choc de titans.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2761,7 +3022,8 @@ export const seriesData = {
                         "duration": "2:08:22",
                         "episodesInclus": "80 - 88",
                         "image": "/vignettes/24_Naruto_Le Légendaire.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2770,7 +3032,8 @@ export const seriesData = {
                         "duration": "2:22:52",
                         "episodesInclus": "89 - 96",
                         "image": "/vignettes/24_Naruto_La démesure de la légende.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2784,7 +3047,8 @@ export const seriesData = {
                         "duration": "1:32:52",
                         "episodesInclus": "97 - 110",
                         "image": "/vignettes/24_Naruto_Rivalité.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2793,7 +3057,8 @@ export const seriesData = {
                         "duration": "1:00:54",
                         "episodesInclus": "107 + 110 - 117",
                         "image": "/vignettes/24_Naruto_La force en laquelle je crois.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2802,7 +3067,8 @@ export const seriesData = {
                         "duration": "2:12:44",
                         "episodesInclus": "118 - 127",
                         "image": "/vignettes/24_Naruto_Tournant décisif.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2811,7 +3077,8 @@ export const seriesData = {
                         "duration": "2:16:37",
                         "episodesInclus": "128 - 136 + 141 - 142 + 220",
                         "image": "/vignettes/24_Naruto_La Vallée de la Fin.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -2829,6 +3096,7 @@ export const seriesData = {
         "synopsis": "Yabaï puis Kaï - L'histoire de Naruto Shippuden se déroule deux ans et demie après le départ de Naruto à Konoha. On y retrouve tous les personnages plus mûrs et plus âgés.\r\nL'intrigue tourne autour des aventures de Naruto et Sakura à la recherche de Sasuke, parti de Konoha pour acquérir de nouveaux pouvoirs, mais on y découvre aussi les objectifs de l'Akatsuki.",
         "kaieurs": "Triggerforce - Mixouille - Ashura - Guirooskoul",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Naruto_Shippuden_Yabai_(Triggerforce)",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Naruto_Shippuden.webp",
         "backgroundImage": "/background/naruto_shippuden_background.png",
@@ -2843,7 +3111,8 @@ export const seriesData = {
                         "duration": "02:17:43",
                         "episodesInclus": "1 - 12",
                         "image": "/vignettes/36_Naruto Shippuden_Le retour au pays.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2852,7 +3121,8 @@ export const seriesData = {
                         "duration": "01:56:11",
                         "episodesInclus": "13 - 22",
                         "image": "/vignettes/36_Naruto Shippuden_Le Réceptacle.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2861,7 +3131,8 @@ export const seriesData = {
                         "duration": "01:50:52",
                         "episodesInclus": "22 - 32",
                         "image": "/vignettes/36_Naruto Shippuden_Rêve inaccompli.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2875,7 +3146,8 @@ export const seriesData = {
                         "duration": "02:30:24",
                         "episodesInclus": "32 - 43",
                         "image": "/vignettes/36_Naruto Shippuden_Perte de contrôle.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2884,7 +3156,8 @@ export const seriesData = {
                         "duration": "02:14:05",
                         "episodesInclus": "44 - 53",
                         "image": "/vignettes/36_Naruto Shippuden_Infiltration.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2898,7 +3171,8 @@ export const seriesData = {
                         "duration": "02:25:57",
                         "episodesInclus": "54 - 56 + 72 - 80 + 112",
                         "image": "/vignettes/36_Naruto Shippuden_Le Jugement Divin.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2907,7 +3181,8 @@ export const seriesData = {
                         "duration": "01:38:00",
                         "episodesInclus": "81 - 89 + 92",
                         "image": "/vignettes/36_Naruto Shippuden_Le Génie de Shikamaru.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2921,7 +3196,8 @@ export const seriesData = {
                         "duration": "01:19:00",
                         "episodesInclus": "90 + 113 - 118 + 121",
                         "image": "/vignettes/36_Naruto Shippuden_Rituel.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2930,7 +3206,8 @@ export const seriesData = {
                         "duration": "00:41:42",
                         "episodesInclus": "119 - 120",
                         "image": "/vignettes/36_Naruto Shippuden_Le Héros au Sharingan.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2939,7 +3216,8 @@ export const seriesData = {
                         "duration": "01:24:25",
                         "episodesInclus": "122 - 126 + 128 - 130 + 134",
                         "image": "/vignettes/36_Naruto Shippuden_L_Art Ultime.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -2948,7 +3226,8 @@ export const seriesData = {
                         "duration": "01:37:43",
                         "episodesInclus": "128 - 135",
                         "image": "/vignettes/36_Naruto Shippuden_L_enfant de la prophétie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -2957,7 +3236,8 @@ export const seriesData = {
                         "duration": "01:49:05",
                         "episodesInclus": "134 - 141",
                         "image": "/vignettes/36_Naruto Shippuden_Le Secret du Kaléidoscope Hypnotique.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -2971,7 +3251,8 @@ export const seriesData = {
                         "duration": "01:23:14",
                         "episodesInclus": "142 - 143 + 152 - 155",
                         "image": "/vignettes/36_Naruto Shippuden_Taka et Akatsuki.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -2980,7 +3261,8 @@ export const seriesData = {
                         "duration": "02:02:50",
                         "episodesInclus": "152 + 155 - 162 + 204",
                         "image": "/vignettes/36_Naruto Shippuden_Konoha_ théâtre de guerre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -2989,7 +3271,8 @@ export const seriesData = {
                         "duration": "02:55:47",
                         "episodesInclus": "163 - 169 + 172 - 176",
                         "image": "/vignettes/36_Naruto Shippuden_Le Héros de Konoha.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -3003,7 +3286,8 @@ export const seriesData = {
                         "duration": "01:39:39",
                         "episodesInclus": "176 + 178 - 181 + 197 - 201",
                         "image": "/vignettes/36_Naruto Shippuden_Les Kage entrent en scène.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -3012,7 +3296,8 @@ export const seriesData = {
                         "duration": "01:19:41",
                         "episodesInclus": "201 - 205",
                         "image": "/vignettes/36_Naruto Shippuden_La Puissance des Ténèbres.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -3021,7 +3306,8 @@ export const seriesData = {
                         "duration": "01:44:17",
                         "episodesInclus": "206 - 211",
                         "image": "/vignettes/36_Naruto Shippuden_La Résolution du Hokage.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -3035,7 +3321,8 @@ export const seriesData = {
                         "duration": "01:35:31",
                         "episodesInclus": "212 - 222",
                         "image": "/vignettes/36_Naruto Shippuden_Si loin_ si proche.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -3044,7 +3331,8 @@ export const seriesData = {
                         "duration": "02:01:36",
                         "episodesInclus": "243 - 249",
                         "image": "/vignettes/36_Naruto Shippuden_La Naissance de Naruto.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -3053,7 +3341,8 @@ export const seriesData = {
                         "duration": "01:50:09",
                         "episodesInclus": "250 - 256 + 261",
                         "image": "/vignettes/36_Naruto Shippuden_Un pont pour la paix.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -3062,7 +3351,8 @@ export const seriesData = {
                         "duration": "01:45:34",
                         "episodesInclus": "261 - 267",
                         "image": "/vignettes/36_Naruto Shippuden_La Réincarnation des Âmes.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -3071,7 +3361,8 @@ export const seriesData = {
                         "duration": "01:25:40",
                         "episodesInclus": "268 - 270 + 272 - 274",
                         "image": "/vignettes/36_Naruto Shippuden_Des liens en or.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -3080,7 +3371,8 @@ export const seriesData = {
                         "duration": "01:46:31",
                         "episodesInclus": "275 - 278 + 282 - 283",
                         "image": "/vignettes/36_Naruto Shippuden_Naruto part en guerre.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,
@@ -3089,7 +3381,8 @@ export const seriesData = {
                         "duration": "02:12:29",
                         "episodesInclus": "296 - 302 + 321 + 326",
                         "image": "/vignettes/36_Naruto Shippuden_Les Déités Célestes.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 8,
@@ -3098,7 +3391,8 @@ export const seriesData = {
                         "duration": "01:56:30",
                         "episodesInclus": "322 - 330",
                         "image": "/vignettes/36_Naruto Shippuden_L_Homme qui n_était personne.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 9,
@@ -3107,7 +3401,8 @@ export const seriesData = {
                         "duration": "02:02:29",
                         "episodesInclus": "331 - 338",
                         "image": "/vignettes/36_Naruto Shippuden_Frères unis dans le combat.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 10,
@@ -3116,7 +3411,8 @@ export const seriesData = {
                         "duration": "01:45:06",
                         "episodesInclus": "339-344",
                         "image": "/vignettes/36_Naruto Shippuden_La Révocation d_Edotensei.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 11,
@@ -3125,7 +3421,8 @@ export const seriesData = {
                         "duration": "01:30:50",
                         "episodesInclus": "345-346 + 350 + 362-364",
                         "image": "/vignettes/36_Naruto Shippuden_Monde Onirique.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 12,
@@ -3134,7 +3431,8 @@ export const seriesData = {
                         "duration": "01:47:54",
                         "episodesInclus": "365 - 370",
                         "image": "/vignettes/36_Naruto Shippuden_Le temps des réponses.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 13,
@@ -3143,7 +3441,8 @@ export const seriesData = {
                         "duration": "01:22:25",
                         "episodesInclus": "371-375",
                         "image": "/vignettes/36_Naruto Shippuden_L_équipe 7 réunie.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 14,
@@ -3152,7 +3451,8 @@ export const seriesData = {
                         "duration": "02:18:19",
                         "episodesInclus": "378-387",
                         "image": "/vignettes/36_Naruto Shippuden_L_Empreinte de Naruto.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 15,
@@ -3161,7 +3461,8 @@ export const seriesData = {
                         "duration": "01:37:08",
                         "episodesInclus": "387-388 + 391-393 + 414-415 + 417",
                         "image": "/vignettes/36_Naruto Shippuden_Un monde qui a échoué.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 16,
@@ -3170,7 +3471,8 @@ export const seriesData = {
                         "duration": "01:37:44",
                         "episodesInclus": "418-421 + 424-426",
                         "image": "/vignettes/36_Naruto Shippuden_Un printemps écarlate.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 17,
@@ -3179,7 +3481,8 @@ export const seriesData = {
                         "duration": "02:04:43",
                         "episodesInclus": "450 - 451 + 458 - 459 + 462 - 463 + 470 - 475",
                         "image": "/vignettes/36_Naruto Shippuden_Un rêve en commun.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 18,
@@ -3188,7 +3491,8 @@ export const seriesData = {
                         "duration": "01:04:16",
                         "episodesInclus": "475-479",
                         "image": "/vignettes/36_Naruto Shippuden_Naruto et Sasuke.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             },
@@ -3202,7 +3506,8 @@ export const seriesData = {
                         "duration": "01h38",
                         "episodesInclus": "451-455 + 458",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -3211,7 +3516,8 @@ export const seriesData = {
                         "duration": "01h40",
                         "episodesInclus": "484-488",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -3220,7 +3526,8 @@ export const seriesData = {
                         "duration": "01h40",
                         "episodesInclus": "489-493",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -3229,7 +3536,8 @@ export const seriesData = {
                         "duration": "02h19:18",
                         "episodesInclus": "494 - 500",
                         "image": "/vignettes/",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     }
                 ]
             }
@@ -3249,6 +3557,7 @@ export const seriesData = {
         "synopsis": "FANCUT - En 2000, le « Second Impact » a dévasté la Terre et décimé une partie de l'humanité. Quinze ans plus tard, de mystérieuses créatures nommées « Anges » attaquent la ville forteresse de Tokyo-3. Pour survivre, l’organisation secrète NERV déploie les Evangelions (EVA), des géants de combat humanoïdes. Shinji Ikari, 14 ans, est convoqué par son père, directeur de la NERV, pour piloter l'une de ces unités. Aidé de Rei et Asuka, il doit affronter ces monstres pour sauver l'humanité, tout en gérant ses propres traumatismes. Mais dans l'ombre, l'organisation SEELE prépare le mystérieux « Plan de complémentarité de l'Homme », visant à faire évoluer l'espèce vers un nouveau stade.",
         "kaieurs": "MECHAPOULPE",
         "wikiUrl": "https://fan-kai.fandom.com/fr/wiki/Neon_Genesis_Evangelion_FAN/CUT",
+        "language": "VOSTFR | VF",
         "tags": [],
         "image": "/images/Neon_Genesis_Evangelion.webp",
         "backgroundImage": "/background/neon_genesis_evangelion_background.png",
@@ -3263,7 +3572,8 @@ export const seriesData = {
                         "duration": "01h23",
                         "episodesInclus": "1 - 4",
                         "image": "/vignettes/53_Neon Genesis Evangelion_Prologue pt_1.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 2,
@@ -3272,7 +3582,8 @@ export const seriesData = {
                         "duration": "01h03",
                         "episodesInclus": "5-7",
                         "image": "/vignettes/53_Neon Genesis Evangelion_Prologue pt_2.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 3,
@@ -3281,7 +3592,8 @@ export const seriesData = {
                         "duration": "02h04",
                         "episodesInclus": "8-13",
                         "image": "/vignettes/53_Neon Genesis Evangelion_Action.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 4,
@@ -3290,7 +3602,8 @@ export const seriesData = {
                         "duration": "02h04",
                         "episodesInclus": "14-19",
                         "image": "/vignettes/53_Neon Genesis Evangelion_Descente.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 5,
@@ -3299,7 +3612,8 @@ export const seriesData = {
                         "duration": "01h59",
                         "episodesInclus": "20-24",
                         "image": "/vignettes/53_Neon Genesis Evangelion_Plan.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 6,
@@ -3308,7 +3622,8 @@ export const seriesData = {
                         "duration": "00h44",
                         "episodesInclus": "25-26",
                         "image": "/vignettes/53_Neon Genesis Evangelion__FIN 1_ Introspection.webp",
-                        "videoUrl": ""
+                        "videoUrlVF": "",
+                        "videoUrlVOSTFR": ""
                     },
                     {
                         "id": 7,

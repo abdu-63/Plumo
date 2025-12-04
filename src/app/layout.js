@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="fr" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
           <Suspense fallback={<div style={{ height: '64px', background: 'rgba(10,10,10,0.8)' }}></div>}>
