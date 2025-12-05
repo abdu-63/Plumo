@@ -12,7 +12,7 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
     const [selectedLanguage, setSelectedLanguage] = useState('VOSTFR');
     const [selectedEpisode, setSelectedEpisode] = useState(null);
     const [activeSeasonIndex, setActiveSeasonIndex] = useState(initialSeasonIndex || 0);
-    const { addToHistory } = useWatchHistory();
+    const { addToHistory, history } = useWatchHistory();
 
     useEffect(() => {
         if (initialEpisodeId) {
@@ -172,7 +172,7 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
                                         borderRadius: '4px',
                                         border: 'none',
                                         cursor: selectedEpisode.videoUrlVOSTFR ? 'pointer' : 'not-allowed',
-                                        backgroundColor: selectedLanguage === 'VOSTFR' ? '#e50914' : '#333',
+                                        backgroundColor: selectedLanguage === 'VOSTFR' ? '#FFD700' : '#333',
                                         color: 'white',
                                         fontWeight: 'bold',
                                         opacity: selectedEpisode.videoUrlVOSTFR ? 1 : 0.5
@@ -188,7 +188,7 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
                                         borderRadius: '4px',
                                         border: 'none',
                                         cursor: selectedEpisode.videoUrlVF ? 'pointer' : 'not-allowed',
-                                        backgroundColor: selectedLanguage === 'VF' ? '#e50914' : '#333',
+                                        backgroundColor: selectedLanguage === 'VF' ? '#FFD700' : '#333',
                                         color: 'white',
                                         fontWeight: 'bold',
                                         opacity: selectedEpisode.videoUrlVF ? 1 : 0.5
@@ -214,6 +214,8 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
                                 title={selectedEpisode.title}
                                 initialTimestamp={selectedEpisode.initialTimestamp}
                                 poster={selectedEpisode.image}
+                                series={series}
+                                episode={selectedEpisode}
                             />
                         </div>
 
@@ -224,6 +226,31 @@ export default function EpisodeList({ episodes, series, seasons, initialEpisodeI
                                     Episodes {selectedEpisode.episodesInclus}
                                 </p>
                             )}
+
+                            {(() => {
+                                // Find history entry for this episode
+                                if (!series || !selectedEpisode) return null;
+
+                                const historyEntry = history?.find(h =>
+                                    (h.seriesId === series.id || h.seriesId === Number(series.id)) &&
+                                    (h.episodeId === selectedEpisode.id || h.episodeId === Number(selectedEpisode.id))
+                                );
+
+                                if (historyEntry && historyEntry.lastPosition > 0) {
+                                    const seconds = Math.floor(historyEntry.lastPosition);
+                                    const m = Math.floor(seconds / 60);
+                                    const s = seconds % 60;
+                                    const timeString = `${m < 10 ? '0' + m : m}:${s < 10 ? '0' + s : s}`;
+
+                                    return (
+                                        <p style={{ color: '#fff', fontWeight: 'bold', marginBottom: '1rem' }}>
+                                            Vous aviez arrêté ce kaï à <span style={{ color: '#FFD700' }}>{timeString}</span>
+                                        </p>
+                                    );
+                                }
+                                return null;
+                            })()}
+
                             <p style={{ color: '#aaa' }}>{selectedEpisode.description}</p>
                         </div>
                     </div>

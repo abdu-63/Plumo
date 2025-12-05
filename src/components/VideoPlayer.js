@@ -82,7 +82,7 @@ export default function VideoPlayer({ src, title, series, episode, initialTimest
     // Save position every 10 seconds or on pause
     useEffect(() => {
         const player = playerRef.current?.plyr;
-        if (!player || !series || !episode) return;
+        if (!player || !series || !episode || typeof player.on !== 'function') return;
 
         const handleTimeUpdate = () => {
             const now = Date.now();
@@ -105,8 +105,10 @@ export default function VideoPlayer({ src, title, series, episode, initialTimest
         player.on('pause', handlePause);
 
         return () => {
-            player.off('timeupdate', handleTimeUpdate);
-            player.off('pause', handlePause);
+            if (typeof player.off === 'function') {
+                player.off('timeupdate', handleTimeUpdate);
+                player.off('pause', handlePause);
+            }
         };
     }, [series, episode, addToHistory]);
 
