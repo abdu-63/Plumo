@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plumo
 
-## Getting Started
+**Plumo** est une plateforme moderne de streaming d'animés axée sur une expérience utilisateur premium. Elle propose une interface élégante et responsive, des contrôles de lecture robustes et un historique de visionnage personnalisé.
 
-First, run the development server:
+## Fonctionnalités
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Streaming Immersif** : Lecture vidéo de haute qualité intégrée avec `Plyr`.
+- **Reprise de Lecture** : Mémorise intelligemment votre dernière position de visionnage pour chaque épisode. Options "Reprendre là où vous êtiez".
+- **Historique de Visionnage** : Suit votre progression sur tous vos appareils (authentification via Firebase) ou localement.
+- **Système de Favoris** : Sauvegardez et gérez vos séries préférées.
+- **Intégration Torrent** : Accès direct aux liens torrent pour un visionnage hors ligne de meilleure qualité.
+- **Design Responsive** : Entièrement optimisé pour les expériences sur ordinateur et mobile.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack Technique
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework** : [Next.js](https://nextjs.org/) (App Router)
+- **Style** : CSS Modules (Intégration Vanilla CSS)
+- **Authentification** : NextAuth.js
+- **Backend / Base de données** : Firebase (Firestore)
+- **Lecteur Média** : Plyr-React
+- **Icônes** : Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Commencer
 
-## Learn More
+### Prérequis
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js (v18 ou supérieur recommandé)
+- NPM (Node Package Manager)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Cloner le dépôt**
 
-## Deploy on Vercel
+    ```bash
+    git clone https://github.com/votre-nom-utilisateur/plumo.git
+    cd plumo
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Installer les dépendances**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm install
+    ```
+
+3.  **Configuration de l'environnement**
+
+    Créez un fichier `.env` à la racine du projet. Vous aurez besoin d'un projet Firebase configuré. Ajoutez vos identifiants comme suit :
+
+    ```env
+    # Configuration Client Firebase
+    NEXT_PUBLIC_FIREBASE_API_KEY=votre_api_key
+    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=votre_project_id.firebaseapp.com
+    NEXT_PUBLIC_FIREBASE_PROJECT_ID=votre_project_id
+    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=votre_project_id.appspot.com
+    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=votre_sender_id
+    NEXT_PUBLIC_FIREBASE_APP_ID=votre_app_id
+    
+    # Configuration NextAuth
+    NEXTAUTH_SECRET=votre_nextauth_secret
+    NEXTAUTH_URL=http://localhost:3000
+    ```
+
+4.  **Lancer le serveur de développement**
+
+    ```bash
+    npm run dev
+    ```
+
+    Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour commencer à utiliser Plumo.
+
+## Structure du Projet
+
+- `src/app/` : Pages et mises en page du Next.js App Router.
+- `src/components/` : Composants UI réutilisables (Navbar, VideoPlayer, EpisodeList, etc.).
+- `src/data/` : Définitions de données statiques pour les séries et épisodes.
+- `src/hooks/` : Hooks personnalisés (ex: `useWatchHistory` pour gérer l'état de visionnage).
+- `src/lib/` : Utilitaires et initialisation du client Firebase.
+
+## Contribuer
+
+Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Request.
+
+---
+*Plumo - Vos Animés, Votre Façon.*
