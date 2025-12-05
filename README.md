@@ -99,4 +99,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Req
 ---
 *Plumo - Vos Animés, Votre Façon.*
 
-*Temps de développement initial : 37h*
+*Temps de développement : 37h*
