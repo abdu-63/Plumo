@@ -4,21 +4,74 @@ import { useState, useEffect } from 'react';
 import { useSession } from 'next-auth/react';
 
 export function useWatchHistory() {
-    const { data: session } = useSession();
+    const { data: session, status } = useSession();
     const [history, setHistory] = useState([]);
 
     useEffect(() => {
+        if (status === 'loading') return;
+
         if (session) {
-            fetch('/api/user/history')
-                .then(res => res.json())
-                .then(data => setHistory(data));
+            // 1. Sync Logic: Always check if we have local data to migrate
+            const storedHistory = localStorage.getItem('plumo_history');
+
+            if (storedHistory) {
+                const localData = JSON.parse(storedHistory);
+                if (localData && localData.length > 0) {
+                    console.log('Migrating local history to server...');
+
+                    // Upload each item in background
+                    // We reverse to keep chronological order if we were appending, 
+                    // though typically 'lastWatchedAt' timestamp handles sorting.
+                    (async () => {
+                        for (const item of localData.reverse()) {
+                            await fetch('/api/user/history', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    seriesId: item.seriesId,
+                                    seriesTitle: item.seriesTitle,
+                                    seriesImage: item.seriesImage,
+                                    episodeId: item.episodeId,
+                                    episodeTitle: item.episodeTitle,
+                                    episodeImage: item.episodeImage,
+                                    position: item.lastPosition,
+                                    seasonIndex: item.seasonIndex
+                                }),
+                            });
+                        }
+                        // 2. Clear local storage after migration
+                        console.log('Migration complete. Clearing local storage.');
+                        localStorage.removeItem('plumo_history');
+
+                        // 3. Fetch final server state
+                        fetch('/api/user/history')
+                            .then(res => res.json())
+                            .then(data => setHistory(data));
+                    })();
+
+                    // Show local data optimistically while syncing/fetching? 
+                    // Or just wait? Better to show merged server data to be sure.
+                    // But to avoid "empty" flash, we can setHistory(localData) tentatively.
+                    // However, safe bet is just fetch.
+                } else {
+                    // Local storage empty, just fetch
+                    fetch('/api/user/history')
+                        .then(res => res.json())
+                        .then(data => setHistory(data));
+                }
+            } else {
+                // No local data, standard fetch
+                fetch('/api/user/history')
+                    .then(res => res.json())
+                    .then(data => setHistory(data));
+            }
         } else {
             const storedHistory = localStorage.getItem('plumo_history');
             if (storedHistory) {
                 setHistory(JSON.parse(storedHistory));
             }
         }
-    }, [session]);
+    }, [session, status]);
 
     const addToHistory = async (series, episode, position = undefined, seasonIndex = undefined) => {
         if (session) {

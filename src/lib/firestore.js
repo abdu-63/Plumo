@@ -2,20 +2,41 @@ import { cert } from 'firebase-admin/app';
 import { getFirestore } from 'firebase-admin/firestore';
 import admin from 'firebase-admin';
 
-const serviceAccount = {
-    projectId: process.env.FIREBASE_PROJECT_ID || 'mock-project-id',
-    clientEmail: process.env.FIREBASE_CLIENT_EMAIL || 'mock-client-email@example.com',
-    // A minimal valid RSA private key for testing/mocking purposes
-    privateKey: (process.env.FIREBASE_PRIVATE_KEY || '-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDb+...\n-----END PRIVATE KEY-----').replace(/\\n/g, '\n'),
-};
+let serviceAccount;
+
+if (process.env.GOOGLE_SERVICE_KEY) {
+    try {
+        const parsed = JSON.parse(process.env.GOOGLE_SERVICE_KEY);
+        serviceAccount = {
+            projectId: parsed.project_id || parsed.projectId,
+            clientEmail: parsed.client_email || parsed.clientEmail,
+            privateKey: parsed.private_key || parsed.privateKey
+        };
+    } catch (e) {
+        console.error('Failed to parse GOOGLE_SERVICE_KEY', e);
+    }
+} else {
+    serviceAccount = {
+        projectId: process.env.FIREBASE_PROJECT_ID,
+        clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
+        privateKey: process.env.FIREBASE_PRIVATE_KEY
+    };
+}
+
+if (serviceAccount && serviceAccount.privateKey) {
+    // Handle escaped newlines in private key
+    serviceAccount.privateKey = serviceAccount.privateKey.replace(/\\n/g, '\n');
+}
 
 if (!admin.apps.length) {
     try {
-        // Only attempt to initialize if we have a real-looking key, otherwise mock
-        if (process.env.FIREBASE_PRIVATE_KEY) {
+        if (serviceAccount && serviceAccount.projectId && serviceAccount.clientEmail && serviceAccount.privateKey) {
             admin.initializeApp({
                 credential: cert(serviceAccount),
             });
+            console.log('✅ Firestore Admin initialized successfully');
+        } else {
+            console.warn('Missing Firebase Admin credentials. Using mock.');
         }
     } catch (error) {
         console.warn('Firebase initialization failed', error);
