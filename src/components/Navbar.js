@@ -59,8 +59,7 @@ export default function Navbar() {
     return (
         <nav className={`${styles.navbar} ${isTransparent ? styles.transparent : ''}`}>
             <Link href="/" className={styles.logo}>
-                <MonitorPlay size={28} color="var(--accent)" />
-                Plumo
+                <img src="/logo.png" alt="Plumo Logo" style={{ height: '32px', width: 'auto' }} />
             </Link>
 
             <div className={styles.navLinks}>
@@ -120,6 +119,6 @@ export default function Navbar() {
                     <User size={20} />
                 </button>
             </div>
-        </nav>
+        </nav >
     );
 }

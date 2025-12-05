@@ -8,7 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Plumo',
-  description: 'A clone of Fankai.fr',
+  description: 'Regarder les kaï Fankai en streaming !',
+  icons: {
+    icon: '/logo_navigateur.png',
+  },
 };
 
 export default function RootLayout({ children }) {
