@@ -82,3 +82,5 @@ Les contributions sont les bienvenues ! N'hésitez pas à soumettre une Pull Req
 
 ---
 *Plumo - Vos Animés, Votre Façon.*
+
+*Temps de développement : 24h30*
